@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ps aux and ss -tulpn via directory trasversal</title>
+    <base href="https://rationalpsyche.github.io/">
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://rationalpsyche.github.io/">rationalpsyche</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="ps-aux-and-ss--tulpn-via-directory-trasversal"><code>ps aux</code> and <code>ss -tulpn</code> via directory trasversal</h1>
+<p>Getting a directory trasversal vulnerability may allow you read the contents of <code>/etc/passwd</code> but that is far from getting an initial foothold.</p>
+<p>However we can leverage directory trasversal to perform further enumeration, namely reading the contents of <code>/proc/sched_debug/</code>,<code>/proc/net/tcp</code> and <code>/proc/net/udp</code> to list running processes and listening ports.</p>
+<p>Knowing the listening ports has two advantages:</p>
+<ul>
+<li>no scan is required</li>
+<li>it shows all listening ports, while a scan would not because of the firewall</li>
+</ul>
+<h2 id="get-running-processes">Get running processes</h2>
+<p><strong>Definition.</strong> <code>/proc/sched_debug/</code> <em>contains the current values of all tunable variables that affect the task scheduler behavior, CFS statistics, and information about the run queues (CFS, RT and deadline) on all available processors. A summary of the task running on each processor is also shown, <strong>with the task name and PID</strong>, along with scheduler specific statistics.</em> (<a href="https://documentation.suse.com/sles/15-SP1/html/SLES-all/cha-tuning-taskscheduler.html">https://documentation.suse.com</a>)</p>
+<p>This is an excerpt from my Raspberry Pi: mysql, postgres and java clearly stand out.</p>
+<pre><code>...
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S        systemd     1     54269.503300    319527   120         0.000000    220985.125975         0.000000 /autogroup-1
+ S        cpuhp/2    19      5483.495288         7   120         0.000000         0.147092         0.000000 /
+ S    migration/2    20         0.000000     97186     0         0.000000      3015.396707         0.000000 /
+ S    ksoftirqd/2    21 206657315.166973   1400570   120         0.000000     97026.231672         0.000000 /
+ S     khungtaskd    34 206656422.058679    107693   120         0.000000     21047.834836         0.000000 /
+ S     oom_reaper    35        32.119719         2   120         0.000000         0.037482         0.000000 /
+ I         crypto    38        44.192688         2   100         0.000000         0.042222         0.000000 /
+ I   kworker/u9:0    43      5717.062752        20   100         0.000000         0.849813         0.000000 /
+ Iext4-rsv-conver    80       522.955538         2   100         0.000000         0.049222         0.000000 /
+ I  ipv6_addrconf    82       531.996245         2   100         0.000000         0.051037         0.000000 /
+ Ssystemd-journal   113     26828.551338    227506   120         0.000000    123276.834776         0.000000 /autogroup-5
+ S           SMIO   181      2696.975299         4   110         0.000000         0.152000         0.000000 /
+ I     mmal-vchiq   190      2949.945070         2   100         0.000000         0.043945         0.000000 /
+ S           rngd   331    140172.692175     18585   120         0.000000    218143.200383         0.000000 /autogroup-31
+ S    in:imuxsock   353      2178.103442     53332   120         0.000000      5534.841689         0.000000 /autogroup-34
+ S    dbus-daemon   337      2710.173180     29949   120         0.000000     11934.808988         0.000000 /autogroup-35
+ S wpa_supplicant   346     19275.611448   1322616   120         0.000000     77334.630410         0.000000 /autogroup-38
+ S    mysqld_safe   622       672.419184       148   120         0.000000        60.852442         0.000000 /autogroup-53
+ S         mysqld   785   4628608.431875  33472146   120         0.000000   2059661.825605         0.000000 /autogroup-53
+ S         mysqld   818   4628599.218524   2647367   120         0.000000    101139.873502         0.000000 /autogroup-53
+ S         mysqld  1631   4628551.848876   1209759   120         0.000000    456517.635645         0.000000 /autogroup-53
+ S         mysqld  1637   4628075.955847   1257109   120         0.000000    475681.574108         0.000000 /autogroup-53
+ S         mysqld 21369   4628285.135154   1255496   120         0.000000    473356.641291         0.000000 /autogroup-53
+ S       postgres   795    405510.355905   8075500   120         0.000000   1527506.201080         0.000000 /autogroup-60
+ S       postgres   797    998150.322107  38450450   120         0.000000   4155094.771219         0.000000 /autogroup-62
+ S       postgres   799   1122832.502745  26470645   120         0.000000   4614870.561741         0.000000 /autogroup-64
+ S           java  1006       732.398641         2   120         0.000000         0.277962         0.000000 /autogroup-68
+ S           java  1067  10039692.138393  13248584   120         0.000000    585474.261155         0.000000 /autogroup-68
+ S           java  1074   5643779.562831      6393   120         0.000000     26977.923517         0.000000 /autogroup-68
+ S           java  1077   5643571.477683      5540   120         0.000000     50616.981577         0.000000 /autogroup-68
+...
+</code></pre><h2 id="listening-ports">Listening ports</h2>
+<p>Besides processes we can also check listening tcp and udp ports by checking respectively <code>/proc/net/tcp</code> and <code>/proc/net/udp</code>.</p>
+<p>An extract from <code>/proc/net/tcp</code>:</p>
+<pre><code>  sl  local_address rem_address   st tx_queue rx_queue tr tm-&gt;when retrnsmt   uid  timeout inode                                                     
+   0: 00000000:1F90 00000000:0000 0A 00000000:00000000 00:00000000 00000000  1001        0 16970 1 8475dcbe 100 0 0 10 0                             
+   1: 00000000:0016 00000000:0000 0A 00000000:00000000 00:00000000 00000000     0        0 13237 1 94c43564 100 0 0 10 0                             
+   2: 0100007F:1538 00000000:0000 0A 00000000:00000000 00:00000000 00000000   110        0 15714 1 6cff9463 100 0 0 10 0                             
+   3: 0100007F:1F45 00000000:0000 0A 00000000:00000000 00:00000000 00000000  1001        0 16981 1 84d4e1f8 100 0 0 10 0                             
+   4: 0100007F:0CEA 00000000:0000 0A 00000000:00000000 00:00000000 00000000   109        0 15004 1 61248baa 100 0 0 10 0                             
+   5: 0100007F:0CEA 0100007F:E746 01 00000000:00000000 02:000A38B3 00000000   109        0 135140486 2 b900d075 21 4 17 10 7                         
+   6: 0100007F:1538 0100007F:8D40 01 00000000:00000000 02:000AE987 00000000   110        0 135139249 2 87b70ec8 22 4 23 10 7                         
+   7: 0100007F:0CEA 0100007F:E286 01 00000000:00000000 02:000863F4 00000000   109        0 135136380 2 aa13605e 22 4 25 10 7                         
+   8: 6501A8C0:ADB8 9A63B812:01BB 08 00000000:00000020 00:00000000 00000000  1001        0 134991830 1 56a2b96e 21 4 28 10 -1                        
+   9: 0100007F:0CEA 0100007F:E3B8 01 00000000:00000000 02:0008D924 00000000   109        0 135136653 2 785953a8 22 4 17 10 7                         
+  10: 6501A8C0:ADB2 9A63B812:01BB 08 00000000:00000020 00:00000000 00000000  1001        0 134991829 1 9c6fb11f 21 4 28 10 -1                        
+  11: 0100007F:E3B6 0100007F:0CEA 01 00000000:00000000 02:0008D923 00000000  1001        0 135137320 2 ab742388 21 4 30 10 7                         
+  12: 0100007F:0CEA 0100007F:E4F4 01 00000000:00000000 02:00094E54 00000000   109        0 135136922 2 fdeaca52 21 4 29 10 7                         
+  13: 6501A8C0:ADB4 9A63B812:01BB 08 00000000:00000020 00:00000000 00000000  1001        0 134991954 1 c63c22b8 21 4 28 10 -1                        
+  14: 0100007F:0CEA 0100007F:E878 01 00000000:00000000 02:000AADE3 00000000   109        0 135140735 2 3a2e7c31 21 4 17 10 7                         
+  15: 0100007F:1538 0100007F:8D66 01 00000000:00000000 02:000AF835 00000000   110        0 135140086 2 193823f0 21 4 13 10 7                         
+  16: 0100007F:0CEA 0100007F:E3B6 01 00000000:00000000 02:0008D923 00000000   109        0 135136652 2 fe2aae5c 21 4 31 10 7                         
+  17: 6501A8C0:B468 9963B812:01BB 08 00000000:00000020 00:00000000 00000000  1001        0 24276625 1 893a9a18 21 4 28 10 -1
+</code></pre><p>The <code>local_adress</code> column specifies address and port number, the column <code>st</code> indicates the state as defined in <code>/usr/include/netinet/tcp.h</code></p>
+<pre><code>enum
+{
+  TCP_ESTABLISHED = 1,
+  TCP_SYN_SENT,
+  TCP_SYN_RECV,
+  TCP_FIN_WAIT1,
+  TCP_FIN_WAIT2,
+  TCP_TIME_WAIT,
+  TCP_CLOSE,
+  TCP_CLOSE_WAIT,
+  TCP_LAST_ACK,
+  TCP_LISTEN,
+  TCP_CLOSING   /* now a valid state */
+};
+</code></pre><p>Let&rsquo;s check all the ports with state <code>0A</code> for <code>TCP_LISTEN</code></p>
+<pre><code>$ awk '{ if ($4 ~ /0A/) print $2}' /proc/net/tcp
+00000000:1F90
+00000000:0016
+0100007F:1538
+0100007F:1F45
+0100007F:0CEA
+</code></pre><p>Now let&rsquo;s convert them from hex to int with a nice one-liner</p>
+<pre><code>$ awk '{ if ($4 ~ /0A/) print $2}' /proc/net/tcp | awk -F ':' '{printf &quot;ibase=16; %s\n&quot;,$2}' | xargs -I {} sh -c &quot;echo '{}' | bc&quot;
+8080
+22
+5432
+8005
+3306
+</code></pre><p>We now know the TCP listening ports. Given the directory trasversal vulnerability it is sufficient to dump the content of <code>/proc/net/tcp</code> to a file and slightly adjust the one-liner above. The same reasoning applies for UDP ports.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I found out about <code>/proc/sched_debug</code>, <code>/proc/net/tcp</code> and <code>/proc/net/udp</code> in <a href="https://blog.netspi.com/directory-traversal-file-inclusion-proc-file-system/">https://blog.netspi.com/directory-traversal-file-inclusion-proc-file-system/</a> and decided to write down these notes, giving more context about the theory and providing a bash one liner that comes handy.</p>
+
+</div>
+
+        </div>
+</body>
+</html>

@@ -150,6 +150,11 @@
   </url>
   
   <url>
+    <loc>https://rationalpsyche.github.io/readings/</loc>
+    <lastmod>2020-09-06T12:08:54+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rationalpsyche.github.io/photos/</loc>
     <lastmod>2020-09-06T10:20:18+02:00</lastmod>
   </url>
@@ -160,12 +165,22 @@
   </url>
   
   <url>
-    <loc>https://rationalpsyche.github.io/articles/</loc>
+    <loc>https://rationalpsyche.github.io/infosec/</loc>
+    <lastmod>2020-03-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationalpsyche.github.io/infosec/directory-trasversal/</loc>
+    <lastmod>2020-03-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationalpsyche.github.io/reading/</loc>
     <lastmod>2017-01-01T11:18:36+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rationalpsyche.github.io/articles/to-the-rules-of-the-world/</loc>
+    <loc>https://rationalpsyche.github.io/reading/to-the-rules-of-the-world/</loc>
     <lastmod>2017-01-01T11:18:36+02:00</lastmod>
   </url>
   
