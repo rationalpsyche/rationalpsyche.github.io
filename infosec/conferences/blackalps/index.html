@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>BlackAlps 2019 (notes)</title>
+    <base href="https://rationalpsyche.github.io/">
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://rationalpsyche.github.io/">rationalpsyche</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="black-alps">Black Alps</h1>
+<h2 id="google-bug-hunters">Google Bug Hunters</h2>
+<p><strong>Speaker: Eduardo Vela Nava</strong></p>
+<p>On average the VRP (Vulnerability Reward Program) receives 35 reports per day.</p>
+<p>There are 12 people on rotation, 2 per day checking the reports, a junior paired with a senior.</p>
+<p>The technical review is separated from the financial rewards.</p>
+<p>The overview of the process is the following:</p>
+<pre tabindex="0"><code>product team &lt;-----&gt; triage &lt;-----&gt; bug hunter
+|			|		^
+|			|		|
+|			V		|
+|__________________ VRP panel __________|
+</code></pre><p>People in the VRP panel see only the issues that are accepted (hence the most interesting).</p>
+<p>When the bug hunter asks for a higher reward it is a good sign because it means that the vulnerability was not well understood.</p>
+<p>In order to avoid burnout, the job is made more interesting by making bug hunters deliver better reports, how? Adding form submission tips and asking questions (e.g. how is this vulnerability exploitable?)</p>
+<p>There is also a vulneraribility research grant: this prevents a bug hunter to send more (invalid) reports to increase
+the probability of having one accepted. The bug hunter is payed anyhow and he has an incentive to deliver only good reports.</p>
+<p>The success rate is 13.7% (which is could because it is almost 1337, nice joke from the speaker)</p>
+<p>Side projects: escala8 (init.g, bugswat, CTF)</p>
+<h2 id="new-tales-of-wireless-security-devices">New tales of wireless security devices</h2>
+<p><strong>Speaker: Gerhard Klostermeier, Matthias Deeg</strong></p>
+<p>Tools:</p>
+<ul>
+<li>HackRFone</li>
+<li>Crazyradio PA</li>
+<li>Logitech unifying receiver</li>
+</ul>
+<p>Attack types:</p>
+<ul>
+<li>Keystroke injection</li>
+<li>Replay</li>
+<li>Data recovery</li>
+<li>Mouse spoofing</li>
+</ul>
+<p>Techniques:</p>
+<ul>
+<li>Hardware analysis</li>
+<li>Radio analysis</li>
+<li>Firmware analysis</li>
+</ul>
+<p>Take away: choose wireless devices (mouse, keyboard, etc.) wisely</p>
+<h2 id="computing-over-encrypted-data">Computing over encrypted data</h2>
+<p><strong>Speaker: Pascal Junod @cryptopathe</strong></p>
+<p>More a list of things to take a look at after the presentation given their complexity:</p>
+<ul>
+<li>FHE (Fully Homomoprhic Encryption)</li>
+<li>MPC (Multiparty computation)</li>
+<li>RLWE (Ring learning with errors)</li>
+<li>Oblivious transfer</li>
+</ul>
+<p>Current implementations:</p>
+<ul>
+<li><a href="https://github.com/shaih/HElib">HElib</a></li>
+<li><a href="https://github.com/Microsoft/SEAL">SEAL</a></li>
+</ul>
+<p>Example of applications for MPC:</p>
+<ul>
+<li>Compute an average without revealing the single addends</li>
+<li>Evaluate <code>a&gt;b</code> without disclosing <code>a</code> and <code>b</code></li>
+</ul>
+<p>Attack models: semihonest (passive) vs malicious (active)</p>
+<p>Private intersection: compute the intersection of two sets without revealing the sets</p>
+<p>Applications: contacts list, suspects list, compromised accounts list</p>
+<p>Currently implemented in Chrome.</p>
+<h2 id="build-a-waf-as-a-service-and-forget-about-false-positives">Build a WAF as a service and forget about false positives</h2>
+<p><strong>Speaker: Juan Berner @89berner</strong></p>
+<p>A WAF can be deployed in different ways:</p>
+<ul>
+<li>an appliance in front of the webapp</li>
+<li>an agent running on the same host of the webapp</li>
+<li>in the cloud</li>
+</ul>
+<p>Disadvantages of a WAF:</p>
+<ul>
+<li>Network placement</li>
+<li>Performance</li>
+<li>False positives</li>
+</ul>
+<p>Idea: don&rsquo;t send all the traffic through the WAF (inline), send it also directly to the webapp (out of band)</p>
+<p>How to direct traffic then? &ldquo;Fingerprint based routing&rdquo;, a combination of src IP and user agent.</p>
+<p>IPs coming from TOR exit nodes, proxies and certain IPs are routed inline (throguh the WAF). They do not represent the average customer traffic.</p>
+<p>Another idea is to look at patterns in requests: a blind sql requires multiple queries to be effective. After n requests that look suspicious all the following from that IP are blocked.</p>
+<h2 id="how-to-prevent-a-whole-class-of-vulnerabilities">How to prevent a whole class of vulnerabilities</h2>
+<p><strong>Speaker: Sam Lanning @samlanning</strong></p>
+<p>Use variant analysis: given a vulnerability write a query that finds similar patterns to identify potential vulnerabilities of the same kind across the code base.</p>
+<p>Next step: integrate the query in the CI process.</p>
+<pre tabindex="0"><code>bug -&gt; diagnose -&gt; write query -------------&gt; monitor
+	|		|	    		|
+	|		V	   		V
+	| 	   discover variants 	discover unreleased variants
+	|		|			|
+	V		V			V
+	fix		fix			fix
+</code></pre><h2 id="maintaining-crypto-libraries-for-11-languages">Maintaining crypto libraries for 11 languages</h2>
+<p><strong>Speaker: Anastasiia Voitova @vixentael</strong></p>
+<p>Stats: 17% of bugs come from crypto libs, 83% from misuse of crypto libs inside apps</p>
+<p>There are a lot of details to consider/choose when encrypting:</p>
+<ul>
+<li>key rotation</li>
+<li>key exchange</li>
+<li>key revocation</li>
+<li>key derivation</li>
+<li>key storage</li>
+<li>key management system</li>
+<li>operation mode</li>
+<li>padding</li>
+<li>IV</li>
+<li>cipher</li>
+</ul>
+<p>Goal: provide to developers a crypto library that is easy to use and hard to misuse.</p>
+<p><a href="https://github.com/cossacklabs/themis">Themis</a></p>
+<h2 id="verifiable-delay-functions">Verifiable delay functions</h2>
+<p><strong>Speaker: Antonio Sanso @asanso</strong></p>
+<p>The idea is to replace proof of work algorithms (which can be parallelized and thus have a consistent impact on the energy consumption of the planet) with verifiable delay functions which serve the same purpose but can not be parallelized.</p>
+<h2 id="cyber-security-no-risks-no-fun">Cyber-Security: no risks no fun?</h2>
+<p><strong>Speaker: Florian Schuetz</strong></p>
+<p><strong>Disclaimer: the keynote is not meant to be political but just an open discussion</strong></p>
+<p>It is hard to explain to people why cybersecurity matters and justify government investments.</p>
+<p>The goal of cybersecurity is to safeguard our lifestyle.</p>
+<p>Which countries have good cybersecurity? Russia, Estonia, Israel, US.</p>
+<p>Why? It is a matter of geopolitics.</p>
+<p>Israel has a small market. To get money in they have to trade something. Start ups. Sell to who? US as there are long standing relationships and
+it is an open market (way easier than selling to Europe). However start-ups should not be sold otherwise money won&rsquo;t flow anymore in the state.</p>
+<p><strong>The takeway is that Israel turned a necessity (cybersecurity) into an advantage</strong></p>
+<p>How can Switzerland do the same?</p>
+<p>Cybersecurity ensures the continuity of financial assets, of neutrality and direct democracy.</p>
+<p>In the last year there has been an increase of 30% in DDOS attacks.</p>
+<p>For businesses this means paying more money to the ISPs to front such threats.</p>
+<p>An idea for the cybersecurity strategy is to build an excellent network backbone. This will lower costs for business investments.</p>
+<p>Another idea is to have more security in the education of software developers. Interesting debate question: if an engineer is responsible for a building, shouldn&rsquo;t a SW developer be somehow responsible for insecure code?</p>
+
+</div>
+
+        </div>
+</body>
+</html>

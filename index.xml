@@ -6,7 +6,28 @@
     <description>Recent content on rationalpsyche</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Feb 2022 12:15:35 +0200</lastBuildDate><atom:link href="https://rationalpsyche.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 11:18:36 +0200</lastBuildDate><atom:link href="https://rationalpsyche.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infographics</title>
+      <link>https://rationalpsyche.github.io/reading/infographics/</link>
+      <pubDate>Fri, 01 Apr 2022 11:18:36 +0200</pubDate>
+      
+      <guid>https://rationalpsyche.github.io/reading/infographics/</guid>
+      <description>Infographics A collection of interesting infographics.
+Geo-Political  Source: visualcapitalist.com</description>
+    </item>
+    
+    <item>
+      <title>Insomnihack 2022 (notes)</title>
+      <link>https://rationalpsyche.github.io/infosec/conferences/insomnihack/</link>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0200</pubDate>
+      
+      <guid>https://rationalpsyche.github.io/infosec/conferences/insomnihack/</guid>
+      <description># Insomnihack It’s Raining Shells - How to Find New Attack Primitives in Azure? Speaker. Andy Robbins @_wald0
+Abuses vs Bugs Advantages of abuses:
+ cheaper to maintain longer shelf life they exist in each instance they are a challenge for detection  Research methodology  begin with the end in mind study design system (&amp;ldquo;academic knowledge&amp;rdquo;)  official documentation repos and repos issues talks (12-24 hours) chats, forums   explore the system  OSINT example to find people to learn from: site:linkedin.</description>
+    </item>
+    
     <item>
       <title>British</title>
       <link>https://rationalpsyche.github.io/movie-maps-themes/british/</link>
@@ -31,7 +52,7 @@
       <pubDate>Fri, 01 Jan 2021 11:18:36 +0200</pubDate>
       
       <guid>https://rationalpsyche.github.io/reading/aphorisms/</guid>
-      <description>Aphorisms  Hackers read manuals - tweet Breakthroughs come from incremental progress - tweet  </description>
+      <description>Aphorisms  Biology enables, culture forbids - Yuval Noah Harari (Sapiens) Hackers read manuals - tweet Breakthroughs come from incremental progress - tweet  </description>
     </item>
     
     <item>
@@ -287,9 +308,7 @@ New Zealand</description>
       
       <guid>https://rationalpsyche.github.io/about/</guid>
       <description>About  Hi, I am Nicolò (rationalpsyche) Fornari.
-I am a Security Engineer with a background in Mathematics.
-My IT interests range in Linux/Security/Operations/Architecture.
- Besides IT I love art: I am passionate about movies, I like taking photographs and I occasionally play the drums.
+I work as Penetration Tester, I&amp;rsquo;m interested in IT security and I love art: I am passionate about movies and I like taking photographs.
 You can contact me on twitter</description>
     </item>
     
@@ -306,6 +325,20 @@ Knowing the listening ports has two advantages:
     </item>
     
     <item>
+      <title>BlackAlps 2019 (notes)</title>
+      <link>https://rationalpsyche.github.io/infosec/conferences/blackalps/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://rationalpsyche.github.io/infosec/conferences/blackalps/</guid>
+      <description>Black Alps Google Bug Hunters Speaker: Eduardo Vela Nava
+On average the VRP (Vulnerability Reward Program) receives 35 reports per day.
+There are 12 people on rotation, 2 per day checking the reports, a junior paired with a senior.
+The technical review is separated from the financial rewards.
+The overview of the process is the following:
+product team &amp;lt;-----&amp;gt; triage &amp;lt;-----&amp;gt; bug hunter |	|	^ |	|	| |	V	| |__________________ VRP panel __________| People in the VRP panel see only the issues that are accepted (hence the most interesting).</description>
+    </item>
+    
+    <item>
       <title>To the Rules of the World</title>
       <link>https://rationalpsyche.github.io/reading/to-the-rules-of-the-world/</link>
       <pubDate>Sun, 01 Jan 2017 11:18:36 +0200</pubDate>
@@ -313,6 +346,17 @@ Knowing the listening ports has two advantages:
       <guid>https://rationalpsyche.github.io/reading/to-the-rules-of-the-world/</guid>
       <description>To The Rulers Of The World CC: those adverse to them
 I strongly despise this money-driven world. Money to have more power or power to have more money, I do not know, probably it is a vicious cycle. Interests, virtual money, this is one of the cancers of our world. I hate the fact the few pricks decide how much your life work is worth. I would like so much to leave for what a close friend of mine called “a small island of virtue” but there is no escape.</description>
+    </item>
+    
+    <item>
+      <title>OWASP AppSecEU 2016 (notes)</title>
+      <link>https://rationalpsyche.github.io/infosec/conferences/owasp-appsec/</link>
+      <pubDate>Wed, 24 Aug 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://rationalpsyche.github.io/infosec/conferences/owasp-appsec/</guid>
+      <description>OWASP AppSecEU Charlie Miller - bug hunting Choose the application to audit:
+ How spread is the app? How hard is to find a vulnerability? How hard is to exploit the vulnerability?  Size of data: eg. sms vs pdf Interaction: eg. javascript vs jpeg Services: eg. Netbios vs HTTP    Static analysis - cons:
+ hard to measure progress, it does not scale problem of understanding the whole program ps-&amp;gt;free = node instead of active This bug is difficult to find with static analysis or even by a human being, as a matter of fact it was found with a fuzzer  Dynamic analysis - aka fuzzing:</description>
     </item>
     
     <item>

@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rationalpsyche.github.io/</loc>
-    <lastmod>2022-02-02T12:15:35+02:00</lastmod>
+    <lastmod>2022-04-01T11:18:36+02:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://rationalpsyche.github.io/reading/infographics/</loc>
+    <lastmod>2022-04-01T11:18:36+02:00</lastmod>
+  </url><url>
+    <loc>https://rationalpsyche.github.io/reading/</loc>
+    <lastmod>2022-04-01T11:18:36+02:00</lastmod>
+  </url><url>
+    <loc>https://rationalpsyche.github.io/infosec/</loc>
+    <lastmod>2022-03-24T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://rationalpsyche.github.io/infosec/conferences/insomnihack/</loc>
+    <lastmod>2022-03-24T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://rationalpsyche.github.io/movie-maps-themes/</loc>
     <lastmod>2022-02-02T12:15:35+02:00</lastmod>
@@ -17,9 +29,6 @@
     <lastmod>2022-02-02T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://rationalpsyche.github.io/reading/aphorisms/</loc>
-    <lastmod>2021-01-01T11:18:36+02:00</lastmod>
-  </url><url>
-    <loc>https://rationalpsyche.github.io/reading/</loc>
     <lastmod>2021-01-01T11:18:36+02:00</lastmod>
   </url><url>
     <loc>https://rationalpsyche.github.io/movie-maps-themes/artificial-intelligence/</loc>
@@ -109,14 +118,17 @@
     <loc>https://rationalpsyche.github.io/about/</loc>
     <lastmod>2020-09-06T10:10:15+02:00</lastmod>
   </url><url>
-    <loc>https://rationalpsyche.github.io/infosec/</loc>
-    <lastmod>2020-03-16T00:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://rationalpsyche.github.io/infosec/directory-trasversal/</loc>
     <lastmod>2020-03-16T00:00:00+02:00</lastmod>
   </url><url>
+    <loc>https://rationalpsyche.github.io/infosec/conferences/blackalps/</loc>
+    <lastmod>2019-09-15T00:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://rationalpsyche.github.io/reading/to-the-rules-of-the-world/</loc>
     <lastmod>2017-01-01T11:18:36+02:00</lastmod>
+  </url><url>
+    <loc>https://rationalpsyche.github.io/infosec/conferences/owasp-appsec/</loc>
+    <lastmod>2016-08-24T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://rationalpsyche.github.io/reading/extracts-citizen-four/</loc>
     <lastmod>1970-01-01T11:18:36+02:00</lastmod>

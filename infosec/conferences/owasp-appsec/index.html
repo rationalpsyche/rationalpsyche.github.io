@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>OWASP AppSecEU 2016 (notes)</title>
+    <base href="https://rationalpsyche.github.io/">
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://rationalpsyche.github.io/">rationalpsyche</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="owasp-appseceu">OWASP AppSecEU</h1>
+<h2 id="charlie-miller---bug-hunting">Charlie Miller - bug hunting</h2>
+<p>Choose the application to audit:</p>
+<ul>
+<li>How spread is the app?</li>
+<li>How hard is to find a vulnerability?</li>
+<li>How hard is to exploit the vulnerability?
+<ul>
+<li>Size of data: eg. sms vs pdf</li>
+<li>Interaction: eg. javascript vs jpeg</li>
+<li>Services: eg. Netbios vs HTTP</li>
+</ul>
+</li>
+</ul>
+<p>Static analysis - cons:</p>
+<ul>
+<li>hard to measure progress, it does not scale</li>
+<li>problem of understanding the whole program</li>
+<li><code>ps-&gt;free = node</code> instead of <code>active</code>
+This bug is difficult to find with static analysis or even by a human being, as a matter of fact it was found with a fuzzer</li>
+</ul>
+<p>Dynamic analysis - aka fuzzing:</p>
+<ul>
+<li>It scales</li>
+<li>Cons: when do you turn off the fuzzer?</li>
+</ul>
+<p>Idea:</p>
+<ul>
+<li>Start with fuzzing, this gives you code coverage</li>
+<li>Then perform static analysis</li>
+<li>Repeat</li>
+</ul>
+<h2 id="daniel-cornell---zap">Daniel Cornell - ZAP</h2>
+<p>Tool: ZAP + threadfix</p>
+<p>Idea: feed to ZAP foreknowledge of the application so that the crawler has more info as problems are:</p>
+<ul>
+<li>hidden landing pages</li>
+<li>multi processes that crawlers do not traverse</li>
+<li>unknow/debug parameters</li>
+</ul>
+<h2 id="giancarlo-pellegrino---compression-bombs">Giancarlo Pellegrino - compression bombs</h2>
+<p>Compression may be mandated by protocol specifications (eg. HTTP response) or a custom feature (HTTP request)</p>
+<p>When dealing with compression:</p>
+<ul>
+<li>Intensive task</li>
+<li>Data amplification</li>
+<li>Unbalanced client-server scenario</li>
+</ul>
+<p>Correct way to validate: decompress the message size</p>
+<h2 id="felix-leder-bug-hunting-on-the-dark-side">Felix Leder: bug hunting on the dark side</h2>
+<ul>
+<li>Conficker: mis-rand for ip range</li>
+<li>Stuxnet: OR instead of AND</li>
+<li>Spam: quoted google translate</li>
+<li>Storm: hardcoded user agent with typo &lsquo;windowss&rsquo; -&gt; easy IDS rule</li>
+<li>Simple locker: hard coded key</li>
+<li>Zeus: forgot to set a root password for sys admin</li>
+<li>Dendroid: wrong use of prepared statement</li>
+</ul>
+<h2 id="tom-van-goethem---timing-attacks">Tom Van Goethem - Timing attacks</h2>
+<p>Types:</p>
+<ul>
+<li>Direct timing: login request to server</li>
+<li>Crosstiming attacks: the attacker tricks the victim to do the timing
+Example: if the user is not logged in or does not belong to a group</li>
+</ul>
+<p>Browser based timings - Targets:</p>
+<ul>
+<li>parse (CPU process time)</li>
+<li>retrieve from cache (disk read time)</li>
+<li>store in cache (disk write time)</li>
+</ul>
+<p>Limitations: network irregularities, gzip compression, rate limiting</p>
+<h3 id="links-to-video-and-slides">Links to video and slides:</h3>
+<p><a href="http://2016.appsec.eu/?page_id=914">AppSec.eu</a></p>
+
+</div>
+
+        </div>
+</body>
+</html>

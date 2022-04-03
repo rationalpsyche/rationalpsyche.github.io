@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Insomnihack 2022 (notes)</title>
+    <base href="https://rationalpsyche.github.io/">
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://rationalpsyche.github.io/">rationalpsyche</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="-insomnihack"># Insomnihack</h1>
+<h2 id="its-raining-shells---how-to-find-new-attack-primitives-in-azure">It’s Raining Shells - How to Find New Attack Primitives in Azure?</h2>
+<p><strong>Speaker.</strong> Andy Robbins <code>@_wald0</code></p>
+<h3 id="abuses-vs-bugs">Abuses vs Bugs</h3>
+<p>Advantages of abuses:</p>
+<ul>
+<li>cheaper to maintain</li>
+<li>longer shelf life</li>
+<li>they exist in each instance</li>
+<li>they are a challenge for detection</li>
+</ul>
+<h3 id="research-methodology">Research methodology</h3>
+<ul>
+<li>begin with the end in mind</li>
+<li>study design system (&ldquo;academic knowledge&rdquo;)
+<ul>
+<li>official documentation</li>
+<li>repos and repos issues</li>
+<li>talks (12-24 hours)</li>
+<li>chats, forums</li>
+</ul>
+</li>
+<li>explore the system</li>
+</ul>
+<p>OSINT example to find people to learn from:
+<code>site:linkedin.com &quot;microsoft&quot; &quot;graph&quot; &quot;architect&quot;</code></p>
+<p><strong>Remark.</strong> Documentation is not accurate and up to date. Go beyond documentation.</p>
+<p>How to explore Azure</p>
+<ul>
+<li>azure GUI + developer tools</li>
+<li>az tool</li>
+<li>az powershell module</li>
+</ul>
+<p><strong>Remark.</strong> Not all the authorization is stored in the JWT -&gt; probably you have more permission than what the JWT describes.</p>
+<p>Steps:</p>
+<ul>
+<li>make a list of app roles</li>
+<li>test the app with one permission at time</li>
+<li>automate the process</li>
+</ul>
+<p><strong>Resources.</strong></p>
+<ul>
+<li>Coming up: Atomic Azure Tests -&gt; inspired by <a href="https://github.com/redcanaryco/atomic-red-team/">Atomic Red Team</a></li>
+</ul>
+<h2 id="automatically-extracting-static-anti-virus-signatures">Automatically extracting static anti-virus signatures</h2>
+<p><strong>Speaker.</strong> Vladimir Meier <code>@plowsec</code></p>
+<p>The AV performs multiple steps:</p>
+<ul>
+<li>check the hash</li>
+<li>heuristic</li>
+<li>signatures</li>
+<li>emulation</li>
+</ul>
+<p>A CI/CD pipeline was set up to automate AV scans. Two reasons for this against using Virus Total:</p>
+<ul>
+<li>VT APIs are expensive</li>
+<li>VT results are shared with AV vendors</li>
+</ul>
+<p>Heavy usage of taviso&rsquo;s <a href="https://github.com/taviso/loadlibrary">loadlibrary</a> and <code>vmrun</code> to run an executable &ldquo;headless&rdquo; with VMWare.</p>
+<p>If file is no longer present then it was detected.</p>
+<p>One way to detect AV signatures is to perform divide et impera, see <code>dsplit</code> , and check which chunk is marked as detected.</p>
+<p><strong>Issue.</strong> plain divide et impera would lead to a corrupted PE, you need PE format aware mutations.</p>
+<p><strong>Issue.</strong> When the signature spans between two chunks is not detected correctly with divide et impera -&gt; see interval trees</p>
+<p>Strings can be identified with the same logic and replaced, meaning</p>
+<ul>
+<li>enumerate detected strings</li>
+<li>for each string enumerate the cross references</li>
+<li>for each cross reference inject a function that encrypts and decrypts the string.</li>
+</ul>
+<p>This is accomplished with</p>
+<ul>
+<li>LIEF</li>
+<li>radare2</li>
+<li>keystone</li>
+</ul>
+<p><strong>Resources.</strong></p>
+<ul>
+<li><a href="https://github.com/scrt/avcleaner">avcleaner</a></li>
+<li><a href="https://blog.scrt.ch/2020/06/19/engineering-antivirus-evasion/">Engineering AV evasion</a></li>
+</ul>
+<h2 id="rew-sploit-dissect-payloads-with-ease">REW-sploit: dissect payloads with ease</h2>
+<p><strong>Speaker.</strong> Cesare Pizzi <code>@red5heep</code></p>
+<p>See <a href="https://github.com/REW-sploit/REW-sploit">REW-sploit</a></p>
+<p><strong>Resource.</strong> (unrelated) <a href="https://asciinema.org/">asciicinema</a></p>
+<h2 id="symbolic-execution-demistified">Symbolic Execution Demistified</h2>
+<p><strong>Speaker.</strong> Jannis Kirschner <code>@xorkiwi</code></p>
+<p>See <a href="https://github.com/JannisKirschner/SymbolicExecutionDemystified">SymbolicExecutionDemystified</a></p>
+<h2 id="managing-large-scale-response"><strong>Managing large-scale response</strong></h2>
+<p><strong>Speaker.</strong>  Mathias Fuchs  <code>@mathias_fuchs</code></p>
+<p>What you need:</p>
+<ul>
+<li>visibility</li>
+<li>efficiency
+<ul>
+<li>e.g. you can not always get full disk images</li>
+</ul>
+</li>
+<li>technical skills</li>
+<li>documentation</li>
+<li>soft skills</li>
+</ul>
+<h3 id="defender-tools">Defender tools</h3>
+<p>Always on:</p>
+<ul>
+<li>sysmon</li>
+<li>logs</li>
+<li>netflow
+On demand:</li>
+<li>EDR</li>
+<li>pcap</li>
+<li>forensics agents</li>
+<li>enriched alerts</li>
+</ul>
+<p>On efficiency: have a small dataset from many machines to understand where to focus and then have a large dataset from few interesting machines.</p>
+<p>Interesting finding: capacity management often detects ransomware earlier than AV/EDR. For instance a NAS is full</p>
+<p>Detection can be done by counting number of occurrences of certain events, outliers will point out systems to check.</p>
+<p>As incident responder you want to minimize false negatives: e.g. when matching IOCs you might have a hash (md5) but the tool only supports  sha1,sha256 and then it would not return a match.</p>
+<p>As incident responder never do anything without a guiding question.</p>
+<h3 id="documentation">Documentation</h3>
+<p>Documentation keeps control of the case: you can brief the customer at any point in time.</p>
+<p>&ldquo;spreadsheet of DOM&rdquo; contains:</p>
+<ul>
+<li>master timeline and relevant IOCs</li>
+<li>contacts</li>
+</ul>
+<p>Working with a flat file could be convenient in no internet situations (e.g. flights or air gapped systems)</p>
+<p><strong>Tool.</strong> <a href="https://www.sans.org/tools/aurora-ir/">Aurora IR</a></p>
+<p>The timeline should show if something is missing (false negatives).</p>
+<p>On resource management and analyst not working at night: customer needs to see progress, it does not matter when progress was made.</p>
+<h2 id="a-common-bypass-pattern-to-exploit-modern-web-apps">A Common Bypass Pattern to Exploit Modern Web Apps</h2>
+<p><strong>Speaker.</strong> Simon Scannell <code>@scannell_simon</code></p>
+<p>Core idea of the talk delivered via four vulnerabilities is: don&rsquo;t stop looking when input is sanitized, continue to see if the sanitized input is then modified.</p>
+<p>On a high level input is:</p>
+<ul>
+<li>transformed</li>
+<li>normalized</li>
+<li>sanitized</li>
+<li><strong>potentially edited</strong></li>
+</ul>
+<p>Easy example to remember: file uploads checks file extension however DB truncates the file name. Provide <code>AAAA...AAA.php.xml</code></p>
+<h2 id="hook-line-and-sinker---pillaging-api-webhooks">Hook, Line and Sinker - Pillaging API Webhooks</h2>
+<p><strong>Speaker.</strong> Abhay Bhargav</p>
+<p>A webhook is a user generated callback.</p>
+<p>Provider: e.g. stripe, mailchimp, CI/CD
+Consumer: developer app</p>
+<p>The core idea of the talk is to attack the provider via SSRF upon a webhook call.</p>
+<p>The provider sends a POST request to the consumer upon webhook. The (malicious) consumer replies with <code>HTTP 303</code>  &ldquo;follow redirect&rdquo; to e.g. <code>https://169.254.169.254/metadata</code>. The response is then displayed on the provider page or in the source code.</p>
+<p>Main mitigation: disable default follow redirect in clients.</p>
+
+</div>
+
+        </div>
+</body>
+</html>
