@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rationalpsyche</title>
-    <link>https://rationalpsyche.github.io/</link>
-    <description>Recent content on rationalpsyche</description>
+    <title>darkvolumes</title>
+    <link>https://darkvolumes.nz/</link>
+    <description>Recent content on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2022 11:18:36 +0200</lastBuildDate><atom:link href="https://rationalpsyche.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 11:18:36 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Infographics</title>
-      <link>https://rationalpsyche.github.io/reading/infographics/</link>
+      <link>https://darkvolumes.nz/reading/infographics/</link>
       <pubDate>Fri, 01 Apr 2022 11:18:36 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/reading/infographics/</guid>
+      <guid>https://darkvolumes.nz/reading/infographics/</guid>
       <description>Infographics A collection of interesting infographics.
 Geo-Political  Source: visualcapitalist.com</description>
     </item>
     
     <item>
       <title>Insomnihack 2022 (notes)</title>
-      <link>https://rationalpsyche.github.io/infosec/conferences/insomnihack/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/insomnihack/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/infosec/conferences/insomnihack/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/insomnihack/</guid>
       <description># Insomnihack It’s Raining Shells - How to Find New Attack Primitives in Azure? Speaker. Andy Robbins @_wald0
 Abuses vs Bugs Advantages of abuses:
  cheaper to maintain longer shelf life they exist in each instance they are a challenge for detection  Research methodology  begin with the end in mind study design system (&amp;ldquo;academic knowledge&amp;rdquo;)  official documentation repos and repos issues talks (12-24 hours) chats, forums   explore the system  OSINT example to find people to learn from: site:linkedin.</description>
@@ -30,253 +30,253 @@ Abuses vs Bugs Advantages of abuses:
     
     <item>
       <title>British</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/british/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/british/</link>
       <pubDate>Wed, 02 Feb 2022 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/british/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/british/</guid>
       <description>British  </description>
     </item>
     
     <item>
       <title>Danish</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/danish/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/danish/</link>
       <pubDate>Wed, 02 Feb 2022 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/danish/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/danish/</guid>
       <description>Danish  </description>
     </item>
     
     <item>
       <title>Aphorisms</title>
-      <link>https://rationalpsyche.github.io/reading/aphorisms/</link>
+      <link>https://darkvolumes.nz/reading/aphorisms/</link>
       <pubDate>Fri, 01 Jan 2021 11:18:36 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/reading/aphorisms/</guid>
+      <guid>https://darkvolumes.nz/reading/aphorisms/</guid>
       <description>Aphorisms  Biology enables, culture forbids - Yuval Noah Harari (Sapiens) Hackers read manuals - tweet Breakthroughs come from incremental progress - tweet  </description>
     </item>
     
     <item>
       <title>Artificial-Intelligence</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/artificial-intelligence/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/artificial-intelligence/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</guid>
       <description>Artificial-Intelligence  </description>
     </item>
     
     <item>
       <title>Black-And-White</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/black-and-white/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/black-and-white/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/black-and-white/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/black-and-white/</guid>
       <description>Black-And-White  </description>
     </item>
     
     <item>
       <title>Black-Comedy</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/black-comedy/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/black-comedy/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/black-comedy/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/black-comedy/</guid>
       <description>Black-Comedy  </description>
     </item>
     
     <item>
       <title>Cronenberg</title>
-      <link>https://rationalpsyche.github.io/movie-maps-directors/cronenberg/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/cronenberg/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-directors/cronenberg/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/cronenberg/</guid>
       <description>Cronenberg  </description>
     </item>
     
     <item>
       <title>Disturbing-Drama</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/disturbing-drama/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/disturbing-drama/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/disturbing-drama/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/disturbing-drama/</guid>
       <description>Disturbing-Drama  </description>
     </item>
     
     <item>
       <title>Drug</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/drug/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/drug/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/drug/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/drug/</guid>
       <description>Drug  </description>
     </item>
     
     <item>
       <title>Dystopia</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/dystopia/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/dystopia/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/dystopia/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/dystopia/</guid>
       <description>Dystopia  </description>
     </item>
     
     <item>
       <title>Eros</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/eros/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/eros/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/eros/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/eros/</guid>
       <description>Eros  </description>
     </item>
     
     <item>
       <title>French-Directors</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/french-directors/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/french-directors/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/french-directors/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/french-directors/</guid>
       <description>French-Directors  </description>
     </item>
     
     <item>
       <title>Human-Dignity</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/human-dignity/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/human-dignity/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/human-dignity/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/human-dignity/</guid>
       <description>Human-Dignity  </description>
     </item>
     
     <item>
       <title>Italian-Directors</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/italian-directors/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/italian-directors/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/italian-directors/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/italian-directors/</guid>
       <description>Italian-Directors  </description>
     </item>
     
     <item>
       <title>Lars-Von-Trier</title>
-      <link>https://rationalpsyche.github.io/movie-maps-directors/lars-von-trier/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/lars-von-trier/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-directors/lars-von-trier/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/lars-von-trier/</guid>
       <description>Lars-Von-Trier  </description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/math/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/math/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/math/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/math/</guid>
       <description>Math  </description>
     </item>
     
     <item>
       <title>Middle-Age</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/middle-age/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/middle-age/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/middle-age/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/middle-age/</guid>
       <description>Middle-Age  </description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/music/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/music/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/music/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/music/</guid>
       <description>Music  </description>
     </item>
     
     <item>
       <title>Neo-Noir</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/neo-noir/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/neo-noir/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/neo-noir/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/neo-noir/</guid>
       <description>Neo-Noir  </description>
     </item>
     
     <item>
       <title>Period-Drama</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/period-drama/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/period-drama/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/period-drama/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/period-drama/</guid>
       <description>Period-Drama  </description>
     </item>
     
     <item>
       <title>Real-Horror</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/real-horror/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/real-horror/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/real-horror/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/real-horror/</guid>
       <description>Real-Horror  </description>
     </item>
     
     <item>
       <title>Return-To-Nature</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/return-to-nature/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/return-to-nature/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</guid>
       <description>Return-To-Nature  </description>
     </item>
     
     <item>
       <title>School</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/school/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/school/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/school/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/school/</guid>
       <description>School  </description>
     </item>
     
     <item>
       <title>Social-Criticism</title>
-      <link>https://rationalpsyche.github.io/movie-maps-themes/social-criticism/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/social-criticism/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-themes/social-criticism/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/social-criticism/</guid>
       <description>Social-Criticism  </description>
     </item>
     
     <item>
       <title>Tim-Burton</title>
-      <link>https://rationalpsyche.github.io/movie-maps-directors/tim-burton/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/tim-burton/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-directors/tim-burton/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/tim-burton/</guid>
       <description>Tim-Burton  </description>
     </item>
     
     <item>
       <title>Viggo-Mortensen</title>
-      <link>https://rationalpsyche.github.io/movie-maps-actors/viggo-mortensen/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/viggo-mortensen/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-actors/viggo-mortensen/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/viggo-mortensen/</guid>
       <description>Viggo-Mortensen  </description>
     </item>
     
     <item>
       <title>Wes-Craven</title>
-      <link>https://rationalpsyche.github.io/movie-maps-directors/wes-craven/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/wes-craven/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps-directors/wes-craven/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/wes-craven/</guid>
       <description>Wes-Craven  </description>
     </item>
     
     <item>
       <title>Movie Maps</title>
-      <link>https://rationalpsyche.github.io/movie-maps/</link>
+      <link>https://darkvolumes.nz/movie-maps/</link>
       <pubDate>Sun, 06 Sep 2020 12:08:54 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/movie-maps/</guid>
+      <guid>https://darkvolumes.nz/movie-maps/</guid>
       <description>Movie Maps I love movies and I like to see the connections between directors, actors and themes so I wrote my own tool to create maps of movies. The director is connected with a blue line to the film, and actors with orange lines. Dashed lines connect films to a theme.
 The maps are organized by
  themes directors actors  </description>
@@ -284,10 +284,10 @@ The maps are organized by
     
     <item>
       <title>Photos</title>
-      <link>https://rationalpsyche.github.io/photos/</link>
+      <link>https://darkvolumes.nz/photos/</link>
       <pubDate>Sun, 06 Sep 2020 10:20:18 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/photos/</guid>
+      <guid>https://darkvolumes.nz/photos/</guid>
       <description>Photos Amsterdam 
 Naples 
 Sardegna 2 
@@ -303,10 +303,10 @@ New Zealand</description>
     
     <item>
       <title>About</title>
-      <link>https://rationalpsyche.github.io/about/</link>
+      <link>https://darkvolumes.nz/about/</link>
       <pubDate>Sun, 06 Sep 2020 10:10:15 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/about/</guid>
+      <guid>https://darkvolumes.nz/about/</guid>
       <description>About  Hi, I am Nicolò (rationalpsyche) Fornari.
 I work as Penetration Tester, I&amp;rsquo;m interested in IT security and I love art: I am passionate about movies and I like taking photographs.
 You can contact me on twitter</description>
@@ -314,10 +314,10 @@ You can contact me on twitter</description>
     
     <item>
       <title>ps aux and ss -tulpn via directory trasversal</title>
-      <link>https://rationalpsyche.github.io/infosec/directory-trasversal/</link>
+      <link>https://darkvolumes.nz/infosec/directory-trasversal/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/infosec/directory-trasversal/</guid>
+      <guid>https://darkvolumes.nz/infosec/directory-trasversal/</guid>
       <description>ps aux and ss -tulpn via directory trasversal Getting a directory trasversal vulnerability may allow you read the contents of /etc/passwd but that is far from getting an initial foothold.
 However we can leverage directory trasversal to perform further enumeration, namely reading the contents of /proc/sched_debug/,/proc/net/tcp and /proc/net/udp to list running processes and listening ports.
 Knowing the listening ports has two advantages:
@@ -326,10 +326,10 @@ Knowing the listening ports has two advantages:
     
     <item>
       <title>BlackAlps 2019 (notes)</title>
-      <link>https://rationalpsyche.github.io/infosec/conferences/blackalps/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/blackalps/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/infosec/conferences/blackalps/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/blackalps/</guid>
       <description>Black Alps Google Bug Hunters Speaker: Eduardo Vela Nava
 On average the VRP (Vulnerability Reward Program) receives 35 reports per day.
 There are 12 people on rotation, 2 per day checking the reports, a junior paired with a senior.
@@ -340,20 +340,20 @@ product team &amp;lt;-----&amp;gt; triage &amp;lt;-----&amp;gt; bug hunter |	|	^
     
     <item>
       <title>To the Rules of the World</title>
-      <link>https://rationalpsyche.github.io/reading/to-the-rules-of-the-world/</link>
+      <link>https://darkvolumes.nz/reading/to-the-rules-of-the-world/</link>
       <pubDate>Sun, 01 Jan 2017 11:18:36 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/reading/to-the-rules-of-the-world/</guid>
+      <guid>https://darkvolumes.nz/reading/to-the-rules-of-the-world/</guid>
       <description>To The Rulers Of The World CC: those adverse to them
 I strongly despise this money-driven world. Money to have more power or power to have more money, I do not know, probably it is a vicious cycle. Interests, virtual money, this is one of the cancers of our world. I hate the fact the few pricks decide how much your life work is worth. I would like so much to leave for what a close friend of mine called “a small island of virtue” but there is no escape.</description>
     </item>
     
     <item>
       <title>OWASP AppSecEU 2016 (notes)</title>
-      <link>https://rationalpsyche.github.io/infosec/conferences/owasp-appsec/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</link>
       <pubDate>Wed, 24 Aug 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/infosec/conferences/owasp-appsec/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</guid>
       <description>OWASP AppSecEU Charlie Miller - bug hunting Choose the application to audit:
  How spread is the app? How hard is to find a vulnerability? How hard is to exploit the vulnerability?  Size of data: eg. sms vs pdf Interaction: eg. javascript vs jpeg Services: eg. Netbios vs HTTP    Static analysis - cons:
  hard to measure progress, it does not scale problem of understanding the whole program ps-&amp;gt;free = node instead of active This bug is difficult to find with static analysis or even by a human being, as a matter of fact it was found with a fuzzer  Dynamic analysis - aka fuzzing:</description>
@@ -361,19 +361,19 @@ I strongly despise this money-driven world. Money to have more power or power to
     
     <item>
       <title>Extracts  - Citizen Four</title>
-      <link>https://rationalpsyche.github.io/reading/extracts-citizen-four/</link>
+      <link>https://darkvolumes.nz/reading/extracts-citizen-four/</link>
       <pubDate>Thu, 01 Jan 1970 11:18:36 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/reading/extracts-citizen-four/</guid>
+      <guid>https://darkvolumes.nz/reading/extracts-citizen-four/</guid>
       <description>Extracts - Citizen Four Edward Snowden I remember what the Internet was like before it was being watched. And there has never been anything in the history of man like it. I mean you could have children from one part of the world having an equal discussion, where you know they were sort of granted the same respect for their ideas and conversation, with experts in the field from another part of the world on any topic, anywhere, anytime, all the time.</description>
     </item>
     
     <item>
       <title>Extracts - Phrack</title>
-      <link>https://rationalpsyche.github.io/reading/extracts-phrack/</link>
+      <link>https://darkvolumes.nz/reading/extracts-phrack/</link>
       <pubDate>Thu, 01 Jan 1970 11:18:36 +0200</pubDate>
       
-      <guid>https://rationalpsyche.github.io/reading/extracts-phrack/</guid>
+      <guid>https://darkvolumes.nz/reading/extracts-phrack/</guid>
       <description>Extracts - Phrack .:: The fall of hacker groups ::. Hacking is, in its very essence, an underground movement. Those who take part in it have always been the ones who (ab)used technology in ways beyond the knowledge of the larger userbase. It is tightly linked to intense efforts in unveiling previously unknown information as well as in sharing these discoveries.
 We live in days of limited creativity. Moreover, as contraditory as it may seem, it looks particularly rare for creativity to arise from groups or teams.</description>
     </item>
