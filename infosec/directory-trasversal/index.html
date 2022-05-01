@@ -33,6 +33,11 @@
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
+                    <a class="nav-item nav-link" href="/art">Art</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
                     <a class="nav-item nav-link" href="/infosec">InfoSec</a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
@@ -137,14 +142,14 @@ runnable tasks:
   TCP_CLOSING   /* now a valid state */
 };
 </code></pre><p>Let&rsquo;s check all the ports with state <code>0A</code> for <code>TCP_LISTEN</code></p>
-<pre tabindex="0"><code>$ awk '{ if ($4 ~ /0A/) print $2}' /proc/net/tcp
+<pre tabindex="0"><code>$ awk &#39;{ if ($4 ~ /0A/) print $2}&#39; /proc/net/tcp
 00000000:1F90
 00000000:0016
 0100007F:1538
 0100007F:1F45
 0100007F:0CEA
 </code></pre><p>Now let&rsquo;s convert them from hex to int with a nice one-liner</p>
-<pre tabindex="0"><code>$ awk '{ if ($4 ~ /0A/) print $2}' /proc/net/tcp | awk -F ':' '{printf &quot;ibase=16; %s\n&quot;,$2}' | xargs -I {} sh -c &quot;echo '{}' | bc&quot;
+<pre tabindex="0"><code>$ awk &#39;{ if ($4 ~ /0A/) print $2}&#39; /proc/net/tcp | awk -F &#39;:&#39; &#39;{printf &#34;ibase=16; %s\n&#34;,$2}&#39; | xargs -I {} sh -c &#34;echo &#39;{}&#39; | bc&#34;
 8080
 22
 5432
