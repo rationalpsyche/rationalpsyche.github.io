@@ -15,7 +15,7 @@
       <guid>https://darkvolumes.nz/infosec/conferences/insomnihack/</guid>
       <description># Insomnihack It’s Raining Shells - How to Find New Attack Primitives in Azure? Speaker. Andy Robbins @_wald0
 Abuses vs Bugs Advantages of abuses:
- cheaper to maintain longer shelf life they exist in each instance they are a challenge for detection  Research methodology  begin with the end in mind study design system (&amp;ldquo;academic knowledge&amp;rdquo;)  official documentation repos and repos issues talks (12-24 hours) chats, forums   explore the system  OSINT example to find people to learn from: site:linkedin.</description>
+cheaper to maintain longer shelf life they exist in each instance they are a challenge for detection Research methodology begin with the end in mind study design system (&amp;ldquo;academic knowledge&amp;rdquo;) official documentation repos and repos issues talks (12-24 hours) chats, forums explore the system OSINT example to find people to learn from: site:linkedin.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@ Abuses vs Bugs Advantages of abuses:
       <description>ps aux and ss -tulpn via directory trasversal Getting a directory trasversal vulnerability may allow you read the contents of /etc/passwd but that is far from getting an initial foothold.
 However we can leverage directory trasversal to perform further enumeration, namely reading the contents of /proc/sched_debug/,/proc/net/tcp and /proc/net/udp to list running processes and listening ports.
 Knowing the listening ports has two advantages:
- no scan is required it shows all listening ports, while a scan would not because of the firewall  Get running processes Definition.</description>
+no scan is required it shows all listening ports, while a scan would not because of the firewall Get running processes Definition.</description>
     </item>
     
     <item>
@@ -51,8 +51,8 @@ product team &amp;lt;-----&amp;gt; triage &amp;lt;-----&amp;gt; bug hunter |	|	^
       
       <guid>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</guid>
       <description>OWASP AppSecEU Charlie Miller - bug hunting Choose the application to audit:
- How spread is the app? How hard is to find a vulnerability? How hard is to exploit the vulnerability?  Size of data: eg. sms vs pdf Interaction: eg. javascript vs jpeg Services: eg. Netbios vs HTTP    Static analysis - cons:
- hard to measure progress, it does not scale problem of understanding the whole program ps-&amp;gt;free = node instead of active This bug is difficult to find with static analysis or even by a human being, as a matter of fact it was found with a fuzzer  Dynamic analysis - aka fuzzing:</description>
+How spread is the app? How hard is to find a vulnerability? How hard is to exploit the vulnerability? Size of data: eg. sms vs pdf Interaction: eg. javascript vs jpeg Services: eg. Netbios vs HTTP Static analysis - cons:
+hard to measure progress, it does not scale problem of understanding the whole program ps-&amp;gt;free = node instead of active This bug is difficult to find with static analysis or even by a human being, as a matter of fact it was found with a fuzzer Dynamic analysis - aka fuzzing:</description>
     </item>
     
   </channel>
