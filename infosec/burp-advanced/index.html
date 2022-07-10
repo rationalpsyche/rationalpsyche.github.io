@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Burp - Advanced</title>
+    <base href="https://darkvolumes.nz/">
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://darkvolumes.nz/">darkvolumes</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/art">Art</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="burp---advanced">Burp - Advanced</h1>
+<p>Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.</p>
+<h2 id="hot-keys">Hot Keys</h2>
+<p>Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Hotkey</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>From proxy history send request to repeater</td>
+<td>CTRL R</td>
+</tr>
+<tr>
+<td>From proxy history send request to intruder</td>
+<td>CTRL I</td>
+</tr>
+<tr>
+<td>Add Intruder payload position marker</td>
+<td>CTRL Shift M</td>
+</tr>
+<tr>
+<td>Issue Repeater Request</td>
+<td>CTRL space</td>
+</tr>
+<tr>
+<td>Go back in repeater history</td>
+<td>CTRL &lt;</td>
+</tr>
+<tr>
+<td>Go forward in repeater history</td>
+<td>CTRL &gt;</td>
+</tr>
+<tr>
+<td>Go to previous tab</td>
+<td>CTRL Shift -</td>
+</tr>
+<tr>
+<td>Go to next tab</td>
+<td>CTRL Shift +</td>
+</tr>
+<tr>
+<td>Switch to target</td>
+<td>CTRL Shift T</td>
+</tr>
+<tr>
+<td>Switch to dashboard</td>
+<td>CTRL Shift D</td>
+</tr>
+<tr>
+<td>Switch to proxy</td>
+<td>CTRL Shift P</td>
+</tr>
+</tbody>
+</table>
+<h2 id="proxy">Proxy</h2>
+<p>Requests in proxy history can be highlighted or annotated with a comment.</p>
+<figure class="burp"><img src="/infosec/burp/burp-highlight-comment.png" width="800"/>
+</figure>
+
+<p>A use case is to mark something as interesting to go back to it later.</p>
+<p>Another use case is leveraging colors to explains topics, e.g. if you are explaining SAML where three parties are involved (client, service provider and identity provider) you can match colors to each party.</p>
+<h2 id="scanning">Scanning</h2>
+<p>The Scanner is your friend. I believe that doing intelligent scanning by coupling your intutition with the scanner is valuable use of testing time.</p>
+<p>How to scan effectively?</p>
+<p>I used to send a request to Intruder, manually set some insertion points on the parameters I found interesting, then right click and &ldquo;Scan defined insertion points.&rdquo;.</p>
+<p>Now I recommend <a href="https://github.com/portswigger/pentagrid-scan-controller">Pentagrid Scan Controller</a>. See how it works in the <a href="https://youtu.be/aFMTzFfX1Z4">Presentation at Area41</a></p>
+<p>Enhance the scanner with <a href="https://github.com/portswigger/backslash-powered-scanner">Backslash Powered Scanner</a>. See how it works in the <a href="https://portswigger.net/research/backslash-powered-scanning-hunting-unknown-vulnerability-classes">Portswigger blogpost</a>.</p>
+<h2 id="extensions">Extensions</h2>
+<h3 id="hackvertor">Hackvertor</h3>
+<p><a href="https://github.com/portswigger/hackvertor">Hackvertor</a> is a tag based convertor.</p>
+<p><strong>Example.</strong></p>
+<pre tabindex="0"><code>GET /infosec/conferences/&lt;@urlencode&gt;insomnihack?q=&#39; or &#39;1&#39;=&#39;1&lt;@/urlencode&gt; HTTP/2
+Host: darkvolumes.nz
+</code></pre><p>Everything inside the tags will be converted (in the example to url encoding). This is very convenient because it is easier to work with plaintext payload which is converted automatically when the request is sent.</p>
+<p>Hackvertor supports nesting of tags, e.g.</p>
+<pre tabindex="0"><code>GET /infosec/conferences/&lt;@urlencode&gt;&lt;@base64&gt;insomnihack&lt;@/base64&gt;/&lt;@/urlencode&gt;/ HTTP/2
+Host: darkvolumes.nz
+</code></pre><p>which then results in</p>
+<pre tabindex="0"><code>GET /infosec/conferences/aW5zb21uaWhhY2s%3D%2F/ HTTP/2
+Host: darkvolumes.nz
+</code></pre><p>The example does not make too much sense but you get the idea.</p>
+<p>Hackvertor can also run python.</p>
+<p><strong>Remark.</strong> You need to enable code execution.</p>
+<figure class="burp"><img src="/infosec/burp/hackvertor-enable-code-execution.png"/>
+</figure>
+
+<p>An example where it was useful was a web application where javascript computed an hmac for each URL which was then validated server-side. This would have made testing very annoying since for each URL I would have had to manually compute the HMAC (the secret key is known client side).</p>
+<p>However I could automate it with hackvertor with the following:</p>
+<pre tabindex="0"><code>GET &lt;@set_path&gt;/rest/endpoint?param=foo&lt;@/set_path&gt;&amp;mac=&lt;@base64url&gt;&lt;@hex2ascii&gt;&lt;@python(&#39;  
+import binascii  
+import hashlib  
+import hmac  
+output = hmac.new(binascii.unhexlify(&#34;secret-key&#34;), input, hashlib.sha256).hexdigest().upper()&#39;,&#39;58fa64a1fc80dcaa4730289edde792c9&#39;)&gt;&lt;@get_path/&gt;&lt;@/python&gt;&lt;@/hex2ascii&gt;&lt;@/base64url&gt; HTTP/1.1
+</code></pre><h3 id="other-extensions">Other Extensions</h3>
+<p>Some extensions which I find usueful.</p>
+<table>
+<thead>
+<tr>
+<th>Extension</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/portswigger/auth-analyzer">Auth Analyzer</a></td>
+<td>Test access control, replaying requests with the cookie of another user and comparing the response</td>
+</tr>
+<tr>
+<td><a href="https://github.com/portswigger/additional-cors-checks">CORS*</a></td>
+<td>Test CORS</td>
+</tr>
+<tr>
+<td><a href="https://github.com/portswigger/turbo-intruder">Turbo Intruder</a></td>
+<td>See <a href="https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack">Porswigger blog post</a>. Example of usage: race conditions for file upload</td>
+</tr>
+<tr>
+<td><a href="https://github.com/portswigger/json-web-tokens">JSON Web Tokens</a></td>
+<td>Decode and manipulate JWT on the fly</td>
+</tr>
+<tr>
+<td>Poor man fuzzer with <code>/dev/urandom/</code> and <a href="https://github.com/portswigger/piper">piper</a></td>
+<td>See <a href="https://gitlab.com/-/snippets/2038687">https://gitlab.com/-/snippets/2038687</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="good-to-know">Good to know</h2>
+<p>Burp supports a SOCKS proxy.</p>
+<p>A use case example could be testing a web application available via Citrix. A socks proxy can be established to Citrix with <a href="https://github.com/nccgroup/SocksOverRDP">SocksOverRDP</a> and then the application can be tested using Burp locally via the proxy.</p>
+<p>Burp supports NTLM authentication.</p>
+
+</div>
+
+        </div>
+</body>
+</html>
