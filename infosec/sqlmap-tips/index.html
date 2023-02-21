@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>SQLMap Tips</title>
+    <base href="https://darkvolumes.nz/">
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://darkvolumes.nz/">darkvolumes</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/art">Art</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="sqlmap-tips">SQLMap Tips</h1>
+<p>In modern web application pentests it is quite rare to find sql injection. Consequently it is quite rare to use sqlmap and, when it happens, it is convenient to recall a few tips.</p>
+<h2 id="extended-help">Extended Help</h2>
+<p>First of all use <code>-hh</code> for the extended help.</p>
+<p><strong>Motivation.</strong> It happened to me to check the manual (<code>man sqlmap</code>) and search for a particular parameter without finding it. The full documentation is just in the extended help.</p>
+<h2 id="proxy-via-burp-and-force-ssl">Proxy via Burp and force SSL</h2>
+<p>It is not necessary but useful to proxy (<code>--proxy</code>) sqlmap via Burp to have visibility of the queries and being able to easily send them to repeater. In addition use <code>--force-ssl</code>.</p>
+<p><strong>Motivation.</strong> I copied the vulnerable request to file and fed it to sqlmap with <code>-r</code>. Then sqlmap was receiving a redirect from the server while the same request in Burp was successfully triggering the injection. Diffing the proxied request from sqlmap with the original one in repeater did not reveal anything. It took me few minutes to realize that without <code>--force-ssl</code> sqlmap initiated an HTTP connection, which caused the server to redirect to HTTPS.</p>
+<h2 id="choose-the-techniques">Choose the techniques</h2>
+<p>With <code>--technique</code> with can specify which techniques sqlmap will use, with BEUSTQ as default where</p>
+<ul>
+<li>B: boolean based blind</li>
+<li>E: error based</li>
+<li>U: union query based</li>
+<li>S: stacked queries</li>
+<li>T: time based blind</li>
+<li>Q: inline queries</li>
+</ul>
+<p><strong>Motivation.</strong> In a specific assessment time based attempts caused the server to crash and return Bad Gateway, recovering after few minutes. With <code>--technique=BEUSQ</code> I could skip time based and overcome the issue.</p>
+<h2 id="be-specific">Be Specific</h2>
+<p>If you know the DB then specify it with <code>--dbms</code>. Check the schema of a specific table with <code>-T</code>, then specify the interesting columns to dump with <code>-C</code>. It is also possible to <code>--stop</code> after N results (e.g. prove in a report that 10 users were extracted).</p>
+<h2 id="dns-exfiltration">DNS Exfiltration</h2>
+<p>Time based SQL injections are very time consuming: it is fine to retrieve the current user to prove the vulnerability in a report, however they are highly impractical when it comes to exploitation.</p>
+<p>It is possible to exfiltrate data via DNS with the Burp Extension <a href="https://portswigger.net/bappstore/e616dc27bf7a4c6598cfeeb70d5ca81c">SQLMap DNS Collaborator</a> however exfiltrating data via DNS means that <strong>the data will NOT be encrypted</strong> so even if you are hosting your own collaborator I would discourage such exfiltration during a professional assessment.</p>
+
+</div>
+
+        </div>
+</body>
+</html>
