@@ -6,7 +6,18 @@
     <description>Recent content on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQLMap Tips</title>
+      <link>https://darkvolumes.nz/infosec/sqlmap-tips/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://darkvolumes.nz/infosec/sqlmap-tips/</guid>
+      <description>SQLMap Tips In modern web application pentests it is quite rare to find sql injection. Consequently it is quite rare to use sqlmap and, when it happens, it is convenient to recall a few tips.
+Extended Help First of all use -hh for the extended help.
+Motivation. It happened to me to check the manual (man sqlmap) and search for a particular parameter without finding it. The full documentation is just in the extended help.</description>
+    </item>
+    
     <item>
       <title>Burp - Advanced</title>
       <link>https://darkvolumes.nz/infosec/burp-advanced/</link>
