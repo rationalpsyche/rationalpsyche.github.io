@@ -6,7 +6,18 @@
     <description>Recent content in Infosec on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burp - Advanced</title>
+      <link>https://darkvolumes.nz/infosec/burp-advanced/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://darkvolumes.nz/infosec/burp-advanced/</guid>
+      <description>Burp - Advanced Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.
+Hot Keys Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.
+Action Hotkey From proxy history send request to repeater CTRL R From proxy history send request to intruder CTRL I Add Intruder payload position marker CTRL Shift M Clear Intruder payload position markers CTRL L Insert Collaborator URL CTRL O Issue Repeater Request CTRL space Issue Intruder Attack CTRL Enter Go back in repeater history CTRL &amp;lt; Go forward in repeater history CTRL &amp;gt; Go to previous tab CTRL Shift - Go to next tab CTRL Shift + Switch to target CTRL Shift T Switch to dashboard CTRL Shift D Switch to proxy CTRL Shift P Forward Intercepted Proxy Message CTRL F Forward Intercepted Proxy Request and Intercept the Response CTRL Shift F Proxy Requests in proxy history can be highlighted or annotated with a comment.</description>
+    </item>
+    
     <item>
       <title>SQLMap Tips</title>
       <link>https://darkvolumes.nz/infosec/sqlmap-tips/</link>
@@ -16,17 +27,6 @@
       <description>SQLMap Tips In modern web application pentests it is quite rare to find sql injection. Consequently it is quite rare to use sqlmap and, when it happens, it is convenient to recall a few tips.
 Extended Help First of all use -hh for the extended help.
 Motivation. It happened to me to check the manual (man sqlmap) and search for a particular parameter without finding it. The full documentation is just in the extended help.</description>
-    </item>
-    
-    <item>
-      <title>Burp - Advanced</title>
-      <link>https://darkvolumes.nz/infosec/burp-advanced/</link>
-      <pubDate>Sun, 10 Jul 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://darkvolumes.nz/infosec/burp-advanced/</guid>
-      <description>Burp - Advanced Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.
-Hot Keys Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.
-Action Hotkey From proxy history send request to repeater CTRL R From proxy history send request to intruder CTRL I Add Intruder payload position marker CTRL Shift M Issue Repeater Request CTRL space Go back in repeater history CTRL &amp;lt; Go forward in repeater history CTRL &amp;gt; Go to previous tab CTRL Shift - Go to next tab CTRL Shift + Switch to target CTRL Shift T Switch to dashboard CTRL Shift D Switch to proxy CTRL Shift P Proxy Requests in proxy history can be highlighted or annotated with a comment.</description>
     </item>
     
     <item>

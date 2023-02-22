@@ -83,8 +83,20 @@
 <td>CTRL Shift M</td>
 </tr>
 <tr>
+<td>Clear Intruder payload position markers</td>
+<td>CTRL L</td>
+</tr>
+<tr>
+<td>Insert Collaborator URL</td>
+<td>CTRL O</td>
+</tr>
+<tr>
 <td>Issue Repeater Request</td>
 <td>CTRL space</td>
+</tr>
+<tr>
+<td>Issue Intruder Attack</td>
+<td>CTRL Enter</td>
 </tr>
 <tr>
 <td>Go back in repeater history</td>
@@ -113,6 +125,14 @@
 <tr>
 <td>Switch to proxy</td>
 <td>CTRL Shift P</td>
+</tr>
+<tr>
+<td>Forward Intercepted Proxy Message</td>
+<td>CTRL F</td>
+</tr>
+<tr>
+<td>Forward Intercepted Proxy Request and Intercept the Response</td>
+<td>CTRL Shift F</td>
 </tr>
 </tbody>
 </table>
@@ -170,26 +190,63 @@ output = hmac.new(binascii.unhexlify(&#34;secret-key&#34;), input, hashlib.sha25
 <td>Test access control, replaying requests with the cookie of another user and comparing the response</td>
 </tr>
 <tr>
+<td><a href="https://portswigger.net/bappstore/065d156ecefd480fa3efa36e05d55f77">Stepper</a></td>
+<td>Check the <a href="https://coreyarthur.com/stepper/">official stepper doc</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/portswigger/additional-cors-checks">CORS*</a></td>
 <td>Test CORS</td>
 </tr>
 <tr>
-<td><a href="https://github.com/portswigger/turbo-intruder">Turbo Intruder</a></td>
-<td>See <a href="https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack">Porswigger blog post</a>. Example of usage: race conditions for file upload</td>
+<td><a href="https://portswigger.net/bappstore/e4e0f6c4f0274754917dcb5f4937bb9e">Piper</a></td>
+<td>Diff requests/responses and View PDFs</td>
+</tr>
+<tr>
+<td><a href="https://portswigger.net/bappstore/b2244cbb6953442cb3c82fa0a0d908fa">Upload Scanner</a></td>
+<td>Check the documentation at <a href="upload-scanner">https://github.com/PortSwigger/upload-scanner</a></td>
+</tr>
+<tr>
+<td><a href="https://portswigger.net/bappstore/e3dde890bdce4ae4bcef0d97019f5d46">Pentagrid Scan Controller</a></td>
+<td>Check how it works in the <a href="https://youtu.be/aFMTzFfX1Z4">Presentation at Area41</a></td>
+</tr>
+<tr>
+<td><a href="https://portswigger.net/bappstore/42680f96fc214513bc5211b3f25fd98b">HTTP Mock</a></td>
+<td>Replace NSFW content or get rid of AI help chats</td>
+</tr>
+<tr>
+<td><a href="https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943">Param Miner</a></td>
+<td>Find hidden parameters</td>
 </tr>
 <tr>
 <td><a href="https://github.com/portswigger/json-web-tokens">JSON Web Tokens</a></td>
 <td>Decode and manipulate JWT on the fly</td>
 </tr>
 <tr>
-<td>Poor man fuzzer with <code>/dev/urandom/</code> and <a href="https://github.com/portswigger/piper">piper</a></td>
-<td>See <a href="https://gitlab.com/-/snippets/2038687">https://gitlab.com/-/snippets/2038687</a></td>
+<td><a href="https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f">InQL</a></td>
+<td>Parse GraphQL schema</td>
+</tr>
+<tr>
+<td><a href="https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f">Wsdler</a></td>
+<td>Parse WSDL schema</td>
+</tr>
+<tr>
+<td><a href="https://portswigger.net/bappstore/c61cfa893bb14db4b01775554f7b802e">SAML Raider</a></td>
+<td>Inspect SAML messages and perform multiple attacks</td>
+</tr>
+<tr>
+<td><a href="https://github.com/portswigger/turbo-intruder">Turbo Intruder</a></td>
+<td>See <a href="https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack">Portswigger blog post</a>. Example of usage: race conditions for file upload</td>
 </tr>
 </tbody>
 </table>
-<h2 id="good-to-know">Good to know</h2>
+<h2 id="up-to-date-bapp-extensions">Up-to-date Bapp Extensions</h2>
+<p>When testing on a laptop behind a corporate proxy it is convenient to have an updated archive with the needed extensions.</p>
+<p>The following script fetches Burp extensions from a list and zips them into an archive ready to copy paste.</p>
+<p><a href="https://github.com/CompassSecurity/bapp-downloader">BApp Downloader</a></p>
+<h2 id="socks-proxy">SOCKS proxy</h2>
 <p>Burp supports a SOCKS proxy.</p>
 <p>A use case example could be testing a web application available via Citrix. A socks proxy can be established to Citrix with <a href="https://github.com/nccgroup/SocksOverRDP">SocksOverRDP</a> and then the application can be tested using Burp locally via the proxy.</p>
+<h2 id="misc">Misc</h2>
 <p>Burp supports NTLM authentication.</p>
 
 </div>
