@@ -13,9 +13,8 @@
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0200</pubDate>
       
       <guid>https://darkvolumes.nz/infosec/burp-advanced/</guid>
-      <description>Burp - Advanced Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.
-Hot Keys Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.
-Action Hotkey From proxy history send request to repeater CTRL R From proxy history send request to intruder CTRL I Add Intruder payload position marker CTRL Shift M Clear Intruder payload position markers CTRL L Insert Collaborator URL CTRL O Issue Repeater Request CTRL space Issue Intruder Attack CTRL Enter Go back in repeater history CTRL &amp;lt; Go forward in repeater history CTRL &amp;gt; Go to previous tab CTRL Shift - Go to next tab CTRL Shift + Switch to target CTRL Shift T Switch to dashboard CTRL Shift D Switch to proxy CTRL Shift P Forward Intercepted Proxy Message CTRL F Forward Intercepted Proxy Request and Intercept the Response CTRL Shift F Proxy Requests in proxy history can be highlighted or annotated with a comment.</description>
+      <description>Burp - Advanced Hot Keys Clean Project - Dashboard and Target Proxy Match And Replace Repeater Scanner Extensions Hackvertor Recommended Extensions Up-to-date Bapp Extensions Misc SOCKS proxy NTLM Authentication Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.
+Hot Keys Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.</description>
     </item>
     
     <item>

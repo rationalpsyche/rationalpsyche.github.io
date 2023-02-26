@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Burp - Advanced</title>
-    <base href="https://darkvolumes.nz/">
     <meta name="description" content="">
     <meta name="author" content=''>
 
@@ -23,6 +22,11 @@
             
                 
                 
+                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
                     <a class="nav-item nav-link" href="/photos">Photos</a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
@@ -34,11 +38,6 @@
                     
                 
                     <a class="nav-item nav-link" href="/art">Art</a>
-                    
-                        <span class="nav-item navbar-text mx-1">/</span>
-                    
-                
-                    <a class="nav-item nav-link" href="/infosec">InfoSec</a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
                     
@@ -59,6 +58,35 @@
 <div id="content">
 <div class="container">
     <h1 id="burp---advanced">Burp - Advanced</h1>
+<div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hot-keys">Hot Keys</a></li>
+    <li><a href="#clean-project---dashboard-and-target">Clean Project - Dashboard and Target</a></li>
+    <li><a href="#proxy">Proxy</a>
+      <ul>
+        <li><a href="#match-and-replace">Match And Replace</a></li>
+      </ul>
+    </li>
+    <li><a href="#repeater">Repeater</a></li>
+    <li><a href="#scanner">Scanner</a></li>
+    <li><a href="#extensions">Extensions</a>
+      <ul>
+        <li><a href="#hackvertor">Hackvertor</a></li>
+        <li><a href="#recommended-extensions">Recommended Extensions</a></li>
+        <li><a href="#up-to-date-bapp-extensions">Up-to-date Bapp Extensions</a></li>
+      </ul>
+    </li>
+    <li><a href="#misc">Misc</a>
+      <ul>
+        <li><a href="#socks-proxy">SOCKS proxy</a></li>
+        <li><a href="#ntlm-authentication">NTLM Authentication</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
 <p>Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.</p>
 <h2 id="hot-keys">Hot Keys</h2>
 <p>Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.</p>
@@ -136,6 +164,27 @@
 </tr>
 </tbody>
 </table>
+<h2 id="clean-project---dashboard-and-target">Clean Project - Dashboard and Target</h2>
+<p>When creating a project two tasks are active by default: live passive crawl from proxy and live audit from proxy.</p>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_messy_dashboard.png" width="800"/>
+</figure>
+
+<p>Live audit will perform passive checks on the proxy traffic and populate the issue activity. Personally I consider these findings to pollute the list of issues rather than providing real value. I prefer to disable this task. In this manner only findings from active scans will be displayed.</p>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_dashboard.png" width="800"/>
+</figure>
+
+<p>Similar reasoning goes for live passive crawl which populates the Target tree. Let&rsquo;s say that you open google.com in the Burp browser by mistake, the Target will be polluted by multiple domains which are completely out of scope.</p>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_messy_target.png" width="800"/>
+</figure>
+
+<p>Instead I recommend to keep the Passive Crawl task but to set it to Scope traffic only.</p>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_target1.png" width="800"/>
+</figure>
+
+<p>Now the Target contains only in-scope domains.
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_target2.png" width="800"/>
+</figure>
+</p>
 <h2 id="proxy">Proxy</h2>
 <p>Requests in proxy history can be highlighted or annotated with a comment.</p>
 <figure class="burp"><img src="/infosec/burp/burp-highlight-comment.png" width="800"/>
@@ -143,7 +192,37 @@
 
 <p>A use case is to mark something as interesting to go back to it later.</p>
 <p>Another use case is leveraging colors to explains topics, e.g. if you are explaining SAML where three parties are involved (client, service provider and identity provider) you can match colors to each party.</p>
-<h2 id="scanning">Scanning</h2>
+<h3 id="match-and-replace">Match And Replace</h3>
+<p>Match and Replace is extremly useful. Here are some usecases.</p>
+<p>Replace the username or email with something easy to type. This is especially useful if you have distinct roles and you can just type something like myclient, mypartner, myadmin instead of looking up and copy pasting each email address.</p>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_users.png" width="800"/>
+</figure>
+
+<p>Note that I use the prefix &ldquo;my&rdquo; as in &ldquo;mypartner&rdquo; instead of the plain &ldquo;partner&rdquo; to avoid having unrelated parameters being unintentionally replaced.</p>
+<p>The same reasoning applies to passwords, why copy pasting them from a document or password manager when it is possible to quickly type something easy to remember?</p>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_password.png" width="800"/>
+</figure>
+
+<p>It is also possible to use Match and Replace for a custom payload, e.g.</p>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_payload.png" width="800"/>
+</figure>
+
+<p>However I have not yet found a satisfying solution to this approach as the same Web Application might send user input URL encoded for some requests and not URL encoded in JSON requests, thus I do not see a way to have a single mnemonic keyword to inject payloads for both URL encoded and JSON requests.</p>
+<p>It is also possible to replace headers, I personally like to remove unneeded client headers to have a cleaner request which also takes less space in reports.
+In the example below I use two match and replace rules with regexes <code>^Sec-Ch-Ua.*$</code> and <code>^Sec-Fetch.*$</code>.</p>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_cleaner_requests.png" width="800"/>
+</figure>
+
+<h2 id="repeater">Repeater</h2>
+<p>Repeater tabs can be renamed and grouped into named and colored grups.</p>
+<figure class="burp"><img src="/infosec/burp/repeater/burp_repeater_tabs.png" width="800"/>
+</figure>
+
+<p>Moreover when a request is sent to Repeater it is possible to choose a default Tab group to keep Repeater even tidier.</p>
+<figure class="burp"><img src="/infosec/burp/repeater/burp_repeater_tabs_default_grouping.png" width="800"/>
+</figure>
+
+<h2 id="scanner">Scanner</h2>
 <p>The Scanner is your friend. I believe that doing intelligent scanning by coupling your intutition with the scanner is valuable use of testing time.</p>
 <p>How to scan effectively?</p>
 <p>I used to send a request to Intruder, manually set some insertion points on the parameters I found interesting, then right click and &ldquo;Scan defined insertion points.&rdquo;.</p>
@@ -175,7 +254,7 @@ import binascii
 import hashlib  
 import hmac  
 output = hmac.new(binascii.unhexlify(&#34;secret-key&#34;), input, hashlib.sha256).hexdigest().upper()&#39;,&#39;58fa64a1fc80dcaa4730289edde792c9&#39;)&gt;&lt;@get_path/&gt;&lt;@/python&gt;&lt;@/hex2ascii&gt;&lt;@/base64url&gt; HTTP/1.1
-</code></pre><h3 id="other-extensions">Other Extensions</h3>
+</code></pre><h3 id="recommended-extensions">Recommended Extensions</h3>
 <p>Some extensions which I find usueful.</p>
 <table>
 <thead>
@@ -239,14 +318,15 @@ output = hmac.new(binascii.unhexlify(&#34;secret-key&#34;), input, hashlib.sha25
 </tr>
 </tbody>
 </table>
-<h2 id="up-to-date-bapp-extensions">Up-to-date Bapp Extensions</h2>
+<h3 id="up-to-date-bapp-extensions">Up-to-date Bapp Extensions</h3>
 <p>When testing on a laptop behind a corporate proxy it is convenient to have an updated archive with the needed extensions.</p>
 <p>The following script fetches Burp extensions from a list and zips them into an archive ready to copy paste.</p>
 <p><a href="https://github.com/CompassSecurity/bapp-downloader">BApp Downloader</a></p>
-<h2 id="socks-proxy">SOCKS proxy</h2>
+<h2 id="misc">Misc</h2>
+<h3 id="socks-proxy">SOCKS proxy</h3>
 <p>Burp supports a SOCKS proxy.</p>
 <p>A use case example could be testing a web application available via Citrix. A socks proxy can be established to Citrix with <a href="https://github.com/nccgroup/SocksOverRDP">SocksOverRDP</a> and then the application can be tested using Burp locally via the proxy.</p>
-<h2 id="misc">Misc</h2>
+<h3 id="ntlm-authentication">NTLM Authentication</h3>
 <p>Burp supports NTLM authentication.</p>
 
 </div>
