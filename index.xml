@@ -6,7 +6,18 @@
     <description>Recent content on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting the most out of Twitter</title>
+      <link>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</guid>
+      <description>I&amp;rsquo;ve been on Twitter since 2015 and in the years I&amp;rsquo;ve learned few tips and tricks to keep an interesting and noise-less feed, just using the official client.
+A refined feed What I like the most of Twitter is getting valuable information without noise, where noise is anything that is uninteresting. How is that possible?
+Disable Retweets An account may be interesting to follow for its content but at the same time it could retweet too much, spamming the feed.</description>
+    </item>
+    
     <item>
       <title>Burp - Advanced</title>
       <link>https://darkvolumes.nz/infosec/burp-advanced/</link>
