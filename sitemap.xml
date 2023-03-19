@@ -3,8 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://darkvolumes.nz/</loc>
-    <lastmod>2023-02-26T00:00:00+02:00</lastmod>
+    <lastmod>2023-03-03T11:18:36+02:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://darkvolumes.nz/reading/metal-is-not-noise/</loc>
+    <lastmod>2023-03-03T11:18:36+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/reading/</loc>
+    <lastmod>2023-03-03T11:18:36+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</loc>
     <lastmod>2023-02-26T00:00:00+02:00</lastmod>
@@ -28,9 +34,6 @@
     <lastmod>2022-05-01T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/reading/infographics/</loc>
-    <lastmod>2022-04-01T11:18:36+02:00</lastmod>
-  </url><url>
-    <loc>https://darkvolumes.nz/reading/</loc>
     <lastmod>2022-04-01T11:18:36+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/infosec/conferences/insomnihack/</loc>
