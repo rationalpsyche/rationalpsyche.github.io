@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://darkvolumes.nz/</loc>
-    <lastmod>2023-03-03T11:18:36+02:00</lastmod>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/body-horror/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/italian-horror/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/real-horror/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/slasher/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/vampires/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/witches/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/zombies/</loc>
+    <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/reading/metal-is-not-noise/</loc>
     <lastmod>2023-03-03T11:18:36+02:00</lastmod>
@@ -39,9 +64,8 @@
     <loc>https://darkvolumes.nz/infosec/conferences/insomnihack/</loc>
     <lastmod>2022-03-24T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/</loc>
+    <loc>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</loc>
     <lastmod>2022-02-02T12:15:35+02:00</lastmod>
-    <priority>0</priority>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/british/</loc>
     <lastmod>2022-02-02T12:15:35+02:00</lastmod>
@@ -52,13 +76,16 @@
     <loc>https://darkvolumes.nz/reading/aphorisms/</loc>
     <lastmod>2021-01-01T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</loc>
+    <loc>https://darkvolumes.nz/movie-maps-actors/anthony-hopkins/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/black-and-white/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/black-comedy/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-actors/charlotte-rampling/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-directors/cronenberg/</loc>
@@ -73,10 +100,22 @@
     <loc>https://darkvolumes.nz/movie-maps-themes/dystopia/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/elderly/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/eros/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/food/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/french-directors/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/homophobia/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-themes/horror/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/human-dignity/</loc>
@@ -86,6 +125,9 @@
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-directors/lars-von-trier/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-actors/mads-mikkelsen/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/math/</loc>
@@ -106,19 +148,28 @@
     <loc>https://darkvolumes.nz/movie-maps-themes/neo-noir/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-actors/nicole-kidman/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/period-drama/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/real-horror/</loc>
+    <loc>https://darkvolumes.nz/movie-maps-actors/ralph-fiennes/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-directors/robert-rodriguez/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/school/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-themes/social-criticism/</loc>
+    <lastmod>2020-09-06T12:15:35+02:00</lastmod>
+  </url><url>
+    <loc>https://darkvolumes.nz/movie-maps-actors/tilda-swinton/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
     <loc>https://darkvolumes.nz/movie-maps-directors/tim-burton/</loc>
