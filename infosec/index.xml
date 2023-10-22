@@ -6,7 +6,18 @@
     <description>Recent content in Infosec on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://darkvolumes.nz/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nohat 2023 (notes)</title>
+      <link>https://darkvolumes.nz/infosec/conferences/nohat/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://darkvolumes.nz/infosec/conferences/nohat/</guid>
+      <description>Nohat 2023 Herbert Bos - Leaking Abstraction Layers Abstraction layers unfortunately are not completely isolated and a vulnerability in one can spill over to the other. As an example Spectre/Meltdown vulnerabilities can be combined with memory corruption to defeat kASLR.
+Cloud providers at the moment will not allow to test for these vulnerabilities, hence publishing related research tested on cloud instances would result in a lawsuit.
+Given that these attacks are very complex and local it is hard to determine how common they are in the wild.</description>
+    </item>
+    
     <item>
       <title>Getting the most out of Twitter</title>
       <link>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</link>

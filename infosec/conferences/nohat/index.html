@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Nohat 2023 (notes)</title>
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://darkvolumes.nz/">darkvolumes</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                     <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/art">Art</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/about">About</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/index.xml"><img src="/rss.svg" width="16" alt="RSS Feed"></a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="nohat-2023">Nohat 2023</h1>
+<h1 id="herbert-bos---leaking-abstraction-layers">Herbert Bos - Leaking Abstraction Layers</h1>
+<p>Abstraction layers unfortunately are not completely isolated and a vulnerability in one can spill over to the other. As an example Spectre/Meltdown vulnerabilities can be combined with memory corruption to defeat kASLR.</p>
+<p>Cloud providers at the moment will not allow to test for these vulnerabilities, hence publishing related research tested on cloud instances would result in a lawsuit.</p>
+<p>Given that these attacks are very complex and local it is hard to determine how common they are in the wild. For sure browsers (with JavaScript running the attack locally) and cloud shared resources offer a wide attack surface. It is possible that intelligence services are looking into this class of vulnerabilities.
+At the moment there is no framework to automate this kind of attacks.</p>
+<h2 id="julia-zduńczyk---rfid-cards">Julia Zduńczyk - RFID Cards</h2>
+<p>Introduction to RFID cards.
+Weak cards which can be just cloned are still widely used.
+Sometimes cards have even printed their number on them, therefore taking pictures with powerful zooms is another way to obtain IDs.</p>
+<p>Numeric IDs (not UUIDs) are weak and can be easily enumerated. This weakness was combined in an assessment by abusing a printer which requires authentication via the card and displays first and last name. Therefore it was possible to enumerate the IDs in the printer room, obtaining a mapping of names to IDs. Then, on Linkedin, it was possible to identify the Network Administrator and make one successful attempt with its ID to access the server room, which had an entrance covered by multiple surveillance camera.</p>
+<p>Proxmark can be hidden in multiple places. When hidden, in order to have a feedback to know that the cloning operation was successful one could connect to the proxmark a raspberry pi which sends push notifications. However, the effort is likely not worth the benefit.</p>
+<p>Cards can be replayed over the network: demo where one attacker has physical access to a card, scans it, the content is replayed over the network to the second attacker in proximity of the reader.</p>
+<p>Finally, even when employing encryption, cards might use very weak ciphers or default/weak keys.</p>
+<h2 id="xeno-kovah---bluetooth-sniffing">Xeno Kovah - Bluetooth Sniffing</h2>
+<p>Motivation: some over the air bluetooth firmware RCEs have been found. However, there is no database to know which devices use the vulnerable firmware.</p>
+<p>The author collected a lot of bluetooth signals, described its hardware equipment.</p>
+<p>An interesting bit is that by law in the US each bluetooth device goes through a regulation process and on the FCC website there are photos of the device ripped open with the hardware visible. It is sometimes possible to see the firmware model.</p>
+<p>Bluetooth devices may periodically generate a random ID that they advertise. However, this behaviour is rare in practice, or, when it happens, there are some other bits of information which still allow to identify the device. This can be an issue as it could allow to track people. Consider the following example: a security camera with bluetooth can be tracked, the camera is used in a case of spouse abuse, the victim relocates, with the information of the camera and crowd sourced bluetooth data it could be possible to track the new location of the victim.</p>
+<p><a href="https://github.com/darkmentorllc/publications/blob/master/2023/PandemicSniffing_Hacktivity2023_Slides_With_Builds.pdf">Slides</a> (same talk, different con)</p>
+<h2 id="jakob-torrey---a-talk-about-talks-v2">Jakob Torrey - A talk about talks v2</h2>
+<p>The author presented a graph database containing an exhaustive collection of security talks given over time. The database started as CC (conference collection) and then evolved into Thinkstcapes. The graph can be queried to explore different relationships, between conferences, within conferences and about speakers.
+The talk is kind of a 10 years later follow up of Haroon Mer &ldquo;A talk about talks&rdquo;.</p>
+<p>One of the questions is whether researchers should spend time on more important things rather than putting together slide decks or, put it differently, is there any metric or way to know what are the effective benefits of all the security conferences?</p>
+<p>The topic could be controversial but spawning new discussions is also the idea of the talk.</p>
+<h2 id="richard-johnson---fuzzing">Richard Johnson - Fuzzing</h2>
+<p>Overview of the latest developments in fuzzing. Too technical to be summarized, better to refer to the <a href="https://fuzzing.io/woot23.pdf">slides</a>.</p>
+<h2 id="matteo-redaelli---rdp-cache-analysis">Matteo Redaelli - RDP Cache Analysis</h2>
+<p>In a nutshell: RDP uses a cache for network performance. If an attacker used RDP to perform lateral movement it is possible to retrieve some of the displayed information from the RDP cache.
+There exist multiple tools for this.</p>
+<h2 id="gianluca-varisco---gcp-workshop">Gianluca Varisco - GCP Workshop</h2>
+<p>Demo of <a href="https://github.com/DataDog/stratus-red-team">Stratus</a>. Stratus is a tool for purple teams: it creates the resources for an attack, it performs the attack on the corresponding resources, it offers a query to detect the attack, finally it cleans up its activities.</p>
+
+</div>
+
+        </div>
+</body>
+</html>
