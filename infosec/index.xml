@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infosec on darkvolumes</title>
-    <link>http://localhost:1313/infosec/</link>
+    <link>https://darkvolumes.nz/infosec/</link>
     <description>Recent content in Infosec on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://darkvolumes.nz/infosec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Area41 2024 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/area41/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/area41/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/area41/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/area41/</guid>
       <description>Area41 Why writing these notes? They are an easy way to find references in some years time, for instance if I will recall a presentation, will I remember:&#xA;which conference was it? which speaker? where are the slides? Note. At the time of writing slides are not published but most talks will be available at https://www.youtube.com/@defconswitzerland/&#xA;Keynote Speaker. Paula Januszkiewicz @PaulaCqure&#xA;Keynote with technical demos, showing two nice tricks: given local admin access to a workstation, if another user is logged into the machine, it is possible to start a service as that user.</description>
     </item>
     <item>
       <title>An AI diary</title>
-      <link>http://localhost:1313/infosec/ai-diary/</link>
+      <link>https://darkvolumes.nz/infosec/ai-diary/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/ai-diary/</guid>
+      <guid>https://darkvolumes.nz/infosec/ai-diary/</guid>
       <description>An AI diary It&amp;rsquo;s the end of 2023 an with the rise of LLMs AI is an exploding topic. This page serves as an organized collection of bookmarks to share, or to go back to in the future.&#xA;Ideas Bias LLMs are trained on human produced content, which is biased (cultural, ideological, political, racial, etc.). China, India, and every other country in the world has to train its own AI models not just to not be economically dependent on the West, but also to avoid being exposed to Western biases daily and, potentially, being manipulated by them.</description>
     </item>
     <item>
       <title>Nohat 2023 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/nohat/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/nohat/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/nohat/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/nohat/</guid>
       <description>Nohat 2023 Herbert Bos - Leaking Abstraction Layers Abstraction layers unfortunately are not completely isolated and a vulnerability in one can spill over to the other. As an example Spectre/Meltdown vulnerabilities can be combined with memory corruption to defeat kASLR.&#xA;Cloud providers at the moment will not allow to test for these vulnerabilities, hence publishing related research tested on cloud instances would result in a lawsuit.&#xA;Given that these attacks are very complex and local it is hard to determine how common they are in the wild.</description>
     </item>
     <item>
       <title>Getting the most out of Twitter</title>
-      <link>http://localhost:1313/infosec/getting-the-most-out-of-twitter/</link>
+      <link>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/getting-the-most-out-of-twitter/</guid>
+      <guid>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</guid>
       <description>Getting the most out of Twitter A refined feed Disable Retweets Muted words Use Lists Pin Lists Search Filters I&amp;rsquo;ve been on Twitter since 2015 and in the years I&amp;rsquo;ve learned few tips and tricks to keep an interesting and noise-less feed, just using the official client.&#xA;A refined feed What I like the most of Twitter is getting valuable information without noise, where noise is anything that is uninteresting. How is that possible?</description>
     </item>
     <item>
       <title>Burp - Advanced</title>
-      <link>http://localhost:1313/infosec/burp-advanced/</link>
+      <link>https://darkvolumes.nz/infosec/burp-advanced/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/burp-advanced/</guid>
+      <guid>https://darkvolumes.nz/infosec/burp-advanced/</guid>
       <description>Burp - Advanced Hot Keys Clean Project - Dashboard and Target Proxy Match And Replace Repeater Scanner Extensions Hackvertor Recommended Extensions Up-to-date Bapp Extensions Misc SOCKS proxy NTLM Authentication Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.&#xA;Hot Keys Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.</description>
     </item>
     <item>
       <title>SQLMap Tips</title>
-      <link>http://localhost:1313/infosec/sqlmap-tips/</link>
+      <link>https://darkvolumes.nz/infosec/sqlmap-tips/</link>
       <pubDate>Tue, 21 Feb 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/sqlmap-tips/</guid>
+      <guid>https://darkvolumes.nz/infosec/sqlmap-tips/</guid>
       <description>SQLMap Tips In modern web application pentests it is quite rare to find sql injection. Consequently it is quite rare to use sqlmap and, when it happens, it is convenient to recall a few tips.&#xA;Extended Help First of all use -hh for the extended help.&#xA;Motivation. It happened to me to check the manual (man sqlmap) and search for a particular parameter without finding it. The full documentation is just in the extended help.</description>
     </item>
     <item>
       <title>Insomnihack 2022 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/insomnihack/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/insomnihack/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/insomnihack/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/insomnihack/</guid>
       <description># Insomnihack It’s Raining Shells - How to Find New Attack Primitives in Azure? Speaker. Andy Robbins @_wald0&#xA;Abuses vs Bugs Advantages of abuses:&#xA;cheaper to maintain longer shelf life they exist in each instance they are a challenge for detection Research methodology begin with the end in mind study design system (&amp;ldquo;academic knowledge&amp;rdquo;) official documentation repos and repos issues talks (12-24 hours) chats, forums explore the system OSINT example to find people to learn from: site:linkedin.</description>
     </item>
     <item>
       <title>ps aux and ss -tulpn via directory trasversal</title>
-      <link>http://localhost:1313/infosec/directory-trasversal/</link>
+      <link>https://darkvolumes.nz/infosec/directory-trasversal/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/directory-trasversal/</guid>
+      <guid>https://darkvolumes.nz/infosec/directory-trasversal/</guid>
       <description>ps aux and ss -tulpn via directory trasversal Getting a directory trasversal vulnerability may allow you read the contents of /etc/passwd but that is far from getting an initial foothold.&#xA;However we can leverage directory trasversal to perform further enumeration, namely reading the contents of /proc/sched_debug/,/proc/net/tcp and /proc/net/udp to list running processes and listening ports.&#xA;Knowing the listening ports has two advantages:&#xA;no scan is required it shows all listening ports, while a scan would not because of the firewall Get running processes Definition.</description>
     </item>
     <item>
       <title>BlackAlps 2019 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/blackalps/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/blackalps/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/blackalps/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/blackalps/</guid>
       <description>Black Alps Google Bug Hunters Speaker: Eduardo Vela Nava&#xA;On average the VRP (Vulnerability Reward Program) receives 35 reports per day.&#xA;There are 12 people on rotation, 2 per day checking the reports, a junior paired with a senior.&#xA;The technical review is separated from the financial rewards.&#xA;The overview of the process is the following:&#xA;product team &amp;lt;-----&amp;gt; triage &amp;lt;-----&amp;gt; bug hunter |&#x9;|&#x9;^ |&#x9;|&#x9;| |&#x9;V&#x9;| |__________________ VRP panel __________| People in the VRP panel see only the issues that are accepted (hence the most interesting).</description>
     </item>
     <item>
       <title>OWASP AppSecEU 2016 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/owasp-appsec/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</link>
       <pubDate>Wed, 24 Aug 2016 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/owasp-appsec/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</guid>
       <description>OWASP AppSecEU Charlie Miller - bug hunting Choose the application to audit:&#xA;How spread is the app? How hard is to find a vulnerability? How hard is to exploit the vulnerability? Size of data: eg. sms vs pdf Interaction: eg. javascript vs jpeg Services: eg. Netbios vs HTTP Static analysis - cons:&#xA;hard to measure progress, it does not scale problem of understanding the whole program ps-&amp;gt;free = node instead of active This bug is difficult to find with static analysis or even by a human being, as a matter of fact it was found with a fuzzer Dynamic analysis - aka fuzzing:</description>
     </item>
   </channel>

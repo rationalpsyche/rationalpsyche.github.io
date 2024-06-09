@@ -2,745 +2,745 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>darkvolumes</title>
-    <link>http://localhost:1313/</link>
+    <link>https://darkvolumes.nz/</link>
     <description>Recent content on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://darkvolumes.nz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Area41 2024 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/area41/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/area41/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/area41/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/area41/</guid>
       <description>Area41 Why writing these notes? They are an easy way to find references in some years time, for instance if I will recall a presentation, will I remember:&#xA;which conference was it? which speaker? where are the slides? Note. At the time of writing slides are not published but most talks will be available at https://www.youtube.com/@defconswitzerland/&#xA;Keynote Speaker. Paula Januszkiewicz @PaulaCqure&#xA;Keynote with technical demos, showing two nice tricks: given local admin access to a workstation, if another user is logged into the machine, it is possible to start a service as that user.</description>
     </item>
     <item>
       <title>An AI diary</title>
-      <link>http://localhost:1313/infosec/ai-diary/</link>
+      <link>https://darkvolumes.nz/infosec/ai-diary/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/ai-diary/</guid>
+      <guid>https://darkvolumes.nz/infosec/ai-diary/</guid>
       <description>An AI diary It&amp;rsquo;s the end of 2023 an with the rise of LLMs AI is an exploding topic. This page serves as an organized collection of bookmarks to share, or to go back to in the future.&#xA;Ideas Bias LLMs are trained on human produced content, which is biased (cultural, ideological, political, racial, etc.). China, India, and every other country in the world has to train its own AI models not just to not be economically dependent on the West, but also to avoid being exposed to Western biases daily and, potentially, being manipulated by them.</description>
     </item>
     <item>
       <title>Nohat 2023 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/nohat/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/nohat/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/nohat/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/nohat/</guid>
       <description>Nohat 2023 Herbert Bos - Leaking Abstraction Layers Abstraction layers unfortunately are not completely isolated and a vulnerability in one can spill over to the other. As an example Spectre/Meltdown vulnerabilities can be combined with memory corruption to defeat kASLR.&#xA;Cloud providers at the moment will not allow to test for these vulnerabilities, hence publishing related research tested on cloud instances would result in a lawsuit.&#xA;Given that these attacks are very complex and local it is hard to determine how common they are in the wild.</description>
     </item>
     <item>
       <title>Body Horror</title>
-      <link>http://localhost:1313/movie-maps-themes/horror/body-horror/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/horror/body-horror/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/horror/body-horror/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/horror/body-horror/</guid>
       <description>Body Horror </description>
     </item>
     <item>
       <title>Italian Horror</title>
-      <link>http://localhost:1313/movie-maps-themes/horror/italian-horror/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/horror/italian-horror/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/horror/italian-horror/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/horror/italian-horror/</guid>
       <description>Italian Horror </description>
     </item>
     <item>
       <title>Real Horror</title>
-      <link>http://localhost:1313/movie-maps-themes/horror/real-horror/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/horror/real-horror/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/horror/real-horror/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/horror/real-horror/</guid>
       <description>Real Horror </description>
     </item>
     <item>
       <title>Slasher</title>
-      <link>http://localhost:1313/movie-maps-themes/horror/slasher/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/horror/slasher/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/horror/slasher/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/horror/slasher/</guid>
       <description>Slasher </description>
     </item>
     <item>
       <title>Vampires</title>
-      <link>http://localhost:1313/movie-maps-themes/horror/vampires/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/horror/vampires/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/horror/vampires/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/horror/vampires/</guid>
       <description>Vampires </description>
     </item>
     <item>
       <title>Witches</title>
-      <link>http://localhost:1313/movie-maps-themes/horror/witches/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/horror/witches/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/horror/witches/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/horror/witches/</guid>
       <description>Witches </description>
     </item>
     <item>
       <title>Zombies</title>
-      <link>http://localhost:1313/movie-maps-themes/horror/zombies/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/horror/zombies/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/horror/zombies/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/horror/zombies/</guid>
       <description>Zombies </description>
     </item>
     <item>
       <title>Metal is not noise</title>
-      <link>http://localhost:1313/reading/metal-is-not-noise/</link>
+      <link>https://darkvolumes.nz/reading/metal-is-not-noise/</link>
       <pubDate>Fri, 03 Mar 2023 11:18:36 +0200</pubDate>
-      <guid>http://localhost:1313/reading/metal-is-not-noise/</guid>
+      <guid>https://darkvolumes.nz/reading/metal-is-not-noise/</guid>
       <description>Metal is not noise The common perception of Metal as musical genre is of people screaming and making noise. Since I had to explain multiple times that there are Metal subgenres with clean vocals that can be appealing to a wider audience I thought it was worth a blog post.&#xA;The following are examples of metal songs with clean voice that you might be surprised to enjoy&#xA;Metal Ballads Sonata Arctica - Letter to Dana Sonata Arctica - Tallulah Ghost - Life Eternal &amp;ldquo;Opera Metal&amp;rdquo; / Nightwish Nightwish - Nemo Nightwish - Ghost Love Score Note that Tarja was the former lead vocalist of Nightwish.</description>
     </item>
     <item>
       <title>Getting the most out of Twitter</title>
-      <link>http://localhost:1313/infosec/getting-the-most-out-of-twitter/</link>
+      <link>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/getting-the-most-out-of-twitter/</guid>
+      <guid>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</guid>
       <description>Getting the most out of Twitter A refined feed Disable Retweets Muted words Use Lists Pin Lists Search Filters I&amp;rsquo;ve been on Twitter since 2015 and in the years I&amp;rsquo;ve learned few tips and tricks to keep an interesting and noise-less feed, just using the official client.&#xA;A refined feed What I like the most of Twitter is getting valuable information without noise, where noise is anything that is uninteresting. How is that possible?</description>
     </item>
     <item>
       <title>Burp - Advanced</title>
-      <link>http://localhost:1313/infosec/burp-advanced/</link>
+      <link>https://darkvolumes.nz/infosec/burp-advanced/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/burp-advanced/</guid>
+      <guid>https://darkvolumes.nz/infosec/burp-advanced/</guid>
       <description>Burp - Advanced Hot Keys Clean Project - Dashboard and Target Proxy Match And Replace Repeater Scanner Extensions Hackvertor Recommended Extensions Up-to-date Bapp Extensions Misc SOCKS proxy NTLM Authentication Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.&#xA;Hot Keys Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.</description>
     </item>
     <item>
       <title>SQLMap Tips</title>
-      <link>http://localhost:1313/infosec/sqlmap-tips/</link>
+      <link>https://darkvolumes.nz/infosec/sqlmap-tips/</link>
       <pubDate>Tue, 21 Feb 2023 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/sqlmap-tips/</guid>
+      <guid>https://darkvolumes.nz/infosec/sqlmap-tips/</guid>
       <description>SQLMap Tips In modern web application pentests it is quite rare to find sql injection. Consequently it is quite rare to use sqlmap and, when it happens, it is convenient to recall a few tips.&#xA;Extended Help First of all use -hh for the extended help.&#xA;Motivation. It happened to me to check the manual (man sqlmap) and search for a particular parameter without finding it. The full documentation is just in the extended help.</description>
     </item>
     <item>
       <title>Antiques - Unique Pieces</title>
-      <link>http://localhost:1313/art/antiques---unique-pieces/</link>
+      <link>https://darkvolumes.nz/art/antiques---unique-pieces/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/art/antiques---unique-pieces/</guid>
+      <guid>https://darkvolumes.nz/art/antiques---unique-pieces/</guid>
       <description>Antiques - Unique Pieces Brafa 2022 Skeleton of an Ice Age woolly rhinoceros&#xA;The fossil was entrusted to the Royal Belgian Institute of Natural Sciences in Brussels. Medusa pendant&#xA;This masterpiece, created by Philippe Wolfers, is internationally recognized as an icon of Art Noveau jewellery. The pendant will be preserved in the Brussel Museum of Art and History. Art Noveau-style pedestal, made from bronze and fossilised wood&#xA;Victor Horta designed this piece for the winter garden of his house.</description>
     </item>
     <item>
       <title>Design Chairs</title>
-      <link>http://localhost:1313/art/design-chairs/</link>
+      <link>https://darkvolumes.nz/art/design-chairs/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/art/design-chairs/</guid>
+      <guid>https://darkvolumes.nz/art/design-chairs/</guid>
       <description>Design Chairs A selection of design chairs, by chronological order. 1925 Gerrit Rietveld - Red and Blue Chair&#xA;1925 Marcel Breuer - Wassily Chair&#xA;1928 Le Corbusier - Chaise Longue&#xA;1948 Charles and Ray Eames - La Chaise&#xA;1956 Nelson - Marshmallow Sofa&#xA;1957 Arne Jacobsen - Drop Egg and Swan 1963-65 Eero Aarnio - Globe Chair&#xA;1972 Frank Gehry - Wiggle Side Chair&#xA;1975 Alessandro Mendini - Grano&#xA;1985 Marc Newson - Lockheed Lounge</description>
     </item>
     <item>
       <title>Infographics</title>
-      <link>http://localhost:1313/reading/infographics/</link>
+      <link>https://darkvolumes.nz/reading/infographics/</link>
       <pubDate>Fri, 01 Apr 2022 11:18:36 +0200</pubDate>
-      <guid>http://localhost:1313/reading/infographics/</guid>
+      <guid>https://darkvolumes.nz/reading/infographics/</guid>
       <description>Infographics A collection of interesting infographics.&#xA;About Infographics d3 has a nice visual taxonomy of graphs, here is their example for maps.&#xA;Geo-Political Source: visualcapitalist.com</description>
     </item>
     <item>
       <title>Insomnihack 2022 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/insomnihack/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/insomnihack/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/insomnihack/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/insomnihack/</guid>
       <description># Insomnihack It’s Raining Shells - How to Find New Attack Primitives in Azure? Speaker. Andy Robbins @_wald0&#xA;Abuses vs Bugs Advantages of abuses:&#xA;cheaper to maintain longer shelf life they exist in each instance they are a challenge for detection Research methodology begin with the end in mind study design system (&amp;ldquo;academic knowledge&amp;rdquo;) official documentation repos and repos issues talks (12-24 hours) chats, forums explore the system OSINT example to find people to learn from: site:linkedin.</description>
     </item>
     <item>
       <title>Artificial-Intelligence</title>
-      <link>http://localhost:1313/movie-maps-themes/artificial-intelligence/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</link>
       <pubDate>Wed, 02 Feb 2022 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/artificial-intelligence/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</guid>
       <description>Artificial-Intelligence </description>
     </item>
     <item>
       <title>British</title>
-      <link>http://localhost:1313/movie-maps-themes/british/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/british/</link>
       <pubDate>Wed, 02 Feb 2022 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/british/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/british/</guid>
       <description>British </description>
     </item>
     <item>
       <title>Aphorisms</title>
-      <link>http://localhost:1313/reading/aphorisms/</link>
+      <link>https://darkvolumes.nz/reading/aphorisms/</link>
       <pubDate>Fri, 01 Jan 2021 11:18:36 +0200</pubDate>
-      <guid>http://localhost:1313/reading/aphorisms/</guid>
+      <guid>https://darkvolumes.nz/reading/aphorisms/</guid>
       <description>Aphorisms Biology enables, culture forbids - Yuval Noah Harari (Sapiens) Hackers read manuals - tweet Breakthroughs come from incremental progress - tweet </description>
     </item>
     <item>
       <title>Almodovar</title>
-      <link>http://localhost:1313/movie-maps-directors/almodovar/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/almodovar/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/almodovar/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/almodovar/</guid>
       <description>Almodovar </description>
     </item>
     <item>
       <title>Anthony Hopkins</title>
-      <link>http://localhost:1313/movie-maps-actors/anthony-hopkins/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/anthony-hopkins/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/anthony-hopkins/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/anthony-hopkins/</guid>
       <description>Anthony Hopkins </description>
     </item>
     <item>
       <title>Barry Keoghan</title>
-      <link>http://localhost:1313/movie-maps-actors/barry-keoghan/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/barry-keoghan/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/barry-keoghan/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/barry-keoghan/</guid>
       <description>Barry Keoghan </description>
     </item>
     <item>
       <title>Ben Kingsley</title>
-      <link>http://localhost:1313/movie-maps-actors/ben-kingsley/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/ben-kingsley/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/ben-kingsley/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/ben-kingsley/</guid>
       <description>Ben Kingsley </description>
     </item>
     <item>
       <title>Bertolucci</title>
-      <link>http://localhost:1313/movie-maps-directors/bertolucci/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/bertolucci/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/bertolucci/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/bertolucci/</guid>
       <description>Bertolucci </description>
     </item>
     <item>
       <title>Black-And-White</title>
-      <link>http://localhost:1313/movie-maps-themes/black-and-white/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/black-and-white/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/black-and-white/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/black-and-white/</guid>
       <description>Black-And-White </description>
     </item>
     <item>
       <title>Black-Comedy</title>
-      <link>http://localhost:1313/movie-maps-themes/black-comedy/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/black-comedy/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/black-comedy/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/black-comedy/</guid>
       <description>Black-Comedy </description>
     </item>
     <item>
       <title>Brad Pitt</title>
-      <link>http://localhost:1313/movie-maps-actors/brad-pitt/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/brad-pitt/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/brad-pitt/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/brad-pitt/</guid>
       <description>Brad Pitt </description>
     </item>
     <item>
       <title>Brendan Gleeson</title>
-      <link>http://localhost:1313/movie-maps-actors/brendan-gleeson/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/brendan-gleeson/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/brendan-gleeson/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/brendan-gleeson/</guid>
       <description>Brendan Gleeson </description>
     </item>
     <item>
       <title>Charlotte Rampling</title>
-      <link>http://localhost:1313/movie-maps-actors/charlotte-rampling/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/charlotte-rampling/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/charlotte-rampling/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/charlotte-rampling/</guid>
       <description>Charlotte Rampling </description>
     </item>
     <item>
       <title>Clint Eastwood</title>
-      <link>http://localhost:1313/movie-maps-actors/clint-eastwood/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/clint-eastwood/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/clint-eastwood/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/clint-eastwood/</guid>
       <description>Clint Eastwood </description>
     </item>
     <item>
       <title>Clint Eastwood</title>
-      <link>http://localhost:1313/movie-maps-directors/clint-eastwood/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/clint-eastwood/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/clint-eastwood/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/clint-eastwood/</guid>
       <description>Clint Eastwood </description>
     </item>
     <item>
       <title>Colin Farrell</title>
-      <link>http://localhost:1313/movie-maps-actors/colin-farrell/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/colin-farrell/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/colin-farrell/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/colin-farrell/</guid>
       <description>Colin Farrell </description>
     </item>
     <item>
       <title>Color</title>
-      <link>http://localhost:1313/movie-maps-themes/color/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/color/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/color/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/color/</guid>
       <description>Color </description>
     </item>
     <item>
       <title>Cronenberg</title>
-      <link>http://localhost:1313/movie-maps-directors/cronenberg/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/cronenberg/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/cronenberg/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/cronenberg/</guid>
       <description>Cronenberg </description>
     </item>
     <item>
       <title>Danish</title>
-      <link>http://localhost:1313/movie-maps-themes/danish/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/danish/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/danish/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/danish/</guid>
       <description>Danish </description>
     </item>
     <item>
       <title>Disturbing-Drama</title>
-      <link>http://localhost:1313/movie-maps-themes/disturbing-drama/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/disturbing-drama/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/disturbing-drama/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/disturbing-drama/</guid>
       <description>Disturbing-Drama </description>
     </item>
     <item>
       <title>Documentary</title>
-      <link>http://localhost:1313/movie-maps-themes/documentary/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/documentary/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/documentary/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/documentary/</guid>
       <description>Documentary </description>
     </item>
     <item>
       <title>Drug</title>
-      <link>http://localhost:1313/movie-maps-themes/drug/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/drug/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/drug/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/drug/</guid>
       <description>Drug </description>
     </item>
     <item>
       <title>Dystopia</title>
-      <link>http://localhost:1313/movie-maps-themes/dystopia/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/dystopia/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/dystopia/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/dystopia/</guid>
       <description>Dystopia </description>
     </item>
     <item>
       <title>Elderly</title>
-      <link>http://localhost:1313/movie-maps-themes/elderly/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/elderly/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/elderly/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/elderly/</guid>
       <description>Elderly </description>
     </item>
     <item>
       <title>Ermanno Olmi</title>
-      <link>http://localhost:1313/movie-maps-directors/ermanno-olmi/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/ermanno-olmi/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/ermanno-olmi/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/ermanno-olmi/</guid>
       <description>Ermanno Olmi </description>
     </item>
     <item>
       <title>Eros</title>
-      <link>http://localhost:1313/movie-maps-themes/eros/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/eros/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/eros/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/eros/</guid>
       <description>Eros </description>
     </item>
     <item>
       <title>Eva Green</title>
-      <link>http://localhost:1313/movie-maps-actors/eva-green/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/eva-green/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/eva-green/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/eva-green/</guid>
       <description>Eva Green </description>
     </item>
     <item>
       <title>Food</title>
-      <link>http://localhost:1313/movie-maps-themes/food/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/food/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/food/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/food/</guid>
       <description>Food </description>
     </item>
     <item>
       <title>Francis Veber</title>
-      <link>http://localhost:1313/movie-maps-directors/francis-veber/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/francis-veber/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/francis-veber/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/francis-veber/</guid>
       <description>Francis Veber </description>
     </item>
     <item>
       <title>French-Directors</title>
-      <link>http://localhost:1313/movie-maps-themes/french-directors/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/french-directors/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/french-directors/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/french-directors/</guid>
       <description>French-Directors </description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>http://localhost:1313/movie-maps-themes/hacking/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/hacking/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/hacking/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/hacking/</guid>
       <description>Hacking </description>
     </item>
     <item>
       <title>Homophobia</title>
-      <link>http://localhost:1313/movie-maps-themes/homophobia/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/homophobia/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/homophobia/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/homophobia/</guid>
       <description>Homophobia </description>
     </item>
     <item>
       <title>Human-Dignity</title>
-      <link>http://localhost:1313/movie-maps-themes/human-dignity/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/human-dignity/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/human-dignity/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/human-dignity/</guid>
       <description>Human-Dignity </description>
     </item>
     <item>
       <title>Ingmar Bergman</title>
-      <link>http://localhost:1313/movie-maps-directors/ingmar-bergman/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/ingmar-bergman/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/ingmar-bergman/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/ingmar-bergman/</guid>
       <description>Ingmar Bergman </description>
     </item>
     <item>
       <title>Italian-Directors</title>
-      <link>http://localhost:1313/movie-maps-themes/italian-directors/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/italian-directors/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/italian-directors/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/italian-directors/</guid>
       <description>Italian-Directors </description>
     </item>
     <item>
       <title>Jack Nicholson</title>
-      <link>http://localhost:1313/movie-maps-actors/jack-nicholson/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/jack-nicholson/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/jack-nicholson/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/jack-nicholson/</guid>
       <description>Jack Nicholson </description>
     </item>
     <item>
       <title>Jean Reno</title>
-      <link>http://localhost:1313/movie-maps-actors/jean-reno/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/jean-reno/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/jean-reno/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/jean-reno/</guid>
       <description>Jean Reno </description>
     </item>
     <item>
       <title>Jean-Pierre Jeunet</title>
-      <link>http://localhost:1313/movie-maps-directors/jean-pierre-jeunet/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/jean-pierre-jeunet/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/jean-pierre-jeunet/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/jean-pierre-jeunet/</guid>
       <description>Jean-Pierre Jeunet </description>
     </item>
     <item>
       <title>Jodie Foster</title>
-      <link>http://localhost:1313/movie-maps-actors/jodie-foster/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/jodie-foster/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/jodie-foster/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/jodie-foster/</guid>
       <description>Jodie Foster </description>
     </item>
     <item>
       <title>Jodorowsky</title>
-      <link>http://localhost:1313/movie-maps-directors/jodorowsky/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/jodorowsky/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/jodorowsky/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/jodorowsky/</guid>
       <description>Jodorowsky </description>
     </item>
     <item>
       <title>Johnny Depp</title>
-      <link>http://localhost:1313/movie-maps-actors/johnny-depp/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/johnny-depp/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/johnny-depp/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/johnny-depp/</guid>
       <description>Johnny Depp </description>
     </item>
     <item>
       <title>Julianne Moore</title>
-      <link>http://localhost:1313/movie-maps-actors/julianne-moore/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/julianne-moore/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/julianne-moore/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/julianne-moore/</guid>
       <description>Julianne Moore </description>
     </item>
     <item>
       <title>Kate Winslet</title>
-      <link>http://localhost:1313/movie-maps-actors/kate-winslet/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/kate-winslet/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/kate-winslet/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/kate-winslet/</guid>
       <description>Kate Winslet </description>
     </item>
     <item>
       <title>Keanu Reeves</title>
-      <link>http://localhost:1313/movie-maps-actors/keanu-reeves/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/keanu-reeves/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/keanu-reeves/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/keanu-reeves/</guid>
       <description>Keanu Reeves </description>
     </item>
     <item>
       <title>Keira Knightley</title>
-      <link>http://localhost:1313/movie-maps-actors/keira-knightley/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/keira-knightley/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/keira-knightley/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/keira-knightley/</guid>
       <description>Keira Knightley </description>
     </item>
     <item>
       <title>Kubrick</title>
-      <link>http://localhost:1313/movie-maps-directors/kubrick/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/kubrick/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/kubrick/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/kubrick/</guid>
       <description>Kubrick </description>
     </item>
     <item>
       <title>Lars Von Trier</title>
-      <link>http://localhost:1313/movie-maps-directors/lars-von-trier/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/lars-von-trier/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/lars-von-trier/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/lars-von-trier/</guid>
       <description>Lars-Von-Trier </description>
     </item>
     <item>
       <title>Mads Mikkelsen</title>
-      <link>http://localhost:1313/movie-maps-actors/mads-mikkelsen/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/mads-mikkelsen/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/mads-mikkelsen/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/mads-mikkelsen/</guid>
       <description>Mads Mikkelsen </description>
     </item>
     <item>
       <title>Math</title>
-      <link>http://localhost:1313/movie-maps-themes/math/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/math/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/math/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/math/</guid>
       <description>Math </description>
     </item>
     <item>
       <title>Matteo Garrone</title>
-      <link>http://localhost:1313/movie-maps-directors/matteo-garrone/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/matteo-garrone/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/matteo-garrone/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/matteo-garrone/</guid>
       <description>Matteo Garrone </description>
     </item>
     <item>
       <title>Michelle Pfeiffer</title>
-      <link>http://localhost:1313/movie-maps-actors/michelle-pfeiffer/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/michelle-pfeiffer/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/michelle-pfeiffer/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/michelle-pfeiffer/</guid>
       <description>Michelle Pfeiffer </description>
     </item>
     <item>
       <title>Middle-Age</title>
-      <link>http://localhost:1313/movie-maps-themes/middle-age/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/middle-age/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/middle-age/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/middle-age/</guid>
       <description>Middle-Age </description>
     </item>
     <item>
       <title>Morgan Freeman</title>
-      <link>http://localhost:1313/movie-maps-actors/morgan-freeman/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/morgan-freeman/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/morgan-freeman/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/morgan-freeman/</guid>
       <description>Morgan Freeman </description>
     </item>
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/movie-maps-themes/music/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/music/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/music/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/music/</guid>
       <description>Music </description>
     </item>
     <item>
       <title>Neo-Noir</title>
-      <link>http://localhost:1313/movie-maps-themes/neo-noir/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/neo-noir/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/neo-noir/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/neo-noir/</guid>
       <description>Neo-Noir </description>
     </item>
     <item>
       <title>Nicole Kidman</title>
-      <link>http://localhost:1313/movie-maps-actors/nicole-kidman/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/nicole-kidman/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/nicole-kidman/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/nicole-kidman/</guid>
       <description>Nicole Kidman </description>
     </item>
     <item>
       <title>Penelope Cruz</title>
-      <link>http://localhost:1313/movie-maps-actors/penelope-cruz/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/penelope-cruz/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/penelope-cruz/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/penelope-cruz/</guid>
       <description>Penelope Cruz </description>
     </item>
     <item>
       <title>Period-Drama</title>
-      <link>http://localhost:1313/movie-maps-themes/period-drama/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/period-drama/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/period-drama/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/period-drama/</guid>
       <description>Period-Drama </description>
     </item>
     <item>
       <title>Peter Greenaway</title>
-      <link>http://localhost:1313/movie-maps-directors/peter-greenaway/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/peter-greenaway/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/peter-greenaway/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/peter-greenaway/</guid>
       <description>Peter Greenaway </description>
     </item>
     <item>
       <title>Polanski</title>
-      <link>http://localhost:1313/movie-maps-directors/polanski/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/polanski/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/polanski/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/polanski/</guid>
       <description>Polanski </description>
     </item>
     <item>
       <title>Rachel Weisz</title>
-      <link>http://localhost:1313/movie-maps-actors/rachel-weisz/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/rachel-weisz/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/rachel-weisz/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/rachel-weisz/</guid>
       <description>Rachel Weisz </description>
     </item>
     <item>
       <title>Ralph Fiennes</title>
-      <link>http://localhost:1313/movie-maps-actors/ralph-fiennes/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/ralph-fiennes/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/ralph-fiennes/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/ralph-fiennes/</guid>
       <description>Ralph Fiennes </description>
     </item>
     <item>
       <title>Return-To-Nature</title>
-      <link>http://localhost:1313/movie-maps-themes/return-to-nature/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/return-to-nature/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</guid>
       <description>Return-To-Nature </description>
     </item>
     <item>
       <title>Ridley Scott</title>
-      <link>http://localhost:1313/movie-maps-directors/ridley-scott/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/ridley-scott/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/ridley-scott/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/ridley-scott/</guid>
       <description>Ridley Scott </description>
     </item>
     <item>
       <title>Robert Rodriguez</title>
-      <link>http://localhost:1313/movie-maps-directors/robert-rodriguez/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/robert-rodriguez/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/robert-rodriguez/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/robert-rodriguez/</guid>
       <description>Robert Rodriguez </description>
     </item>
     <item>
       <title>School</title>
-      <link>http://localhost:1313/movie-maps-themes/school/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/school/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/school/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/school/</guid>
       <description>School </description>
     </item>
     <item>
       <title>Sean Penn</title>
-      <link>http://localhost:1313/movie-maps-actors/sean-penn/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/sean-penn/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/sean-penn/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/sean-penn/</guid>
       <description>Sean Penn </description>
     </item>
     <item>
       <title>Social-Criticism</title>
-      <link>http://localhost:1313/movie-maps-themes/social-criticism/</link>
+      <link>https://darkvolumes.nz/movie-maps-themes/social-criticism/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-themes/social-criticism/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-themes/social-criticism/</guid>
       <description>Social-Criticism </description>
     </item>
     <item>
       <title>Sorrentino</title>
-      <link>http://localhost:1313/movie-maps-directors/sorrentino/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/sorrentino/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/sorrentino/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/sorrentino/</guid>
       <description>Sorrentino </description>
     </item>
     <item>
       <title>Susan Sarandon</title>
-      <link>http://localhost:1313/movie-maps-actors/susan-sarandon/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/susan-sarandon/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/susan-sarandon/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/susan-sarandon/</guid>
       <description>Susan Sarandon </description>
     </item>
     <item>
       <title>Tilda Swinton</title>
-      <link>http://localhost:1313/movie-maps-actors/tilda-swinton/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/tilda-swinton/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/tilda-swinton/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/tilda-swinton/</guid>
       <description>Tilda Swinton </description>
     </item>
     <item>
       <title>Tim Burton</title>
-      <link>http://localhost:1313/movie-maps-directors/tim-burton/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/tim-burton/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/tim-burton/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/tim-burton/</guid>
       <description>Tim-Burton </description>
     </item>
     <item>
       <title>Toni Servillo</title>
-      <link>http://localhost:1313/movie-maps-actors/toni-servillo/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/toni-servillo/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/toni-servillo/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/toni-servillo/</guid>
       <description>Toni Servillo </description>
     </item>
     <item>
       <title>Viggo-Mortensen</title>
-      <link>http://localhost:1313/movie-maps-actors/viggo-mortensen/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/viggo-mortensen/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/viggo-mortensen/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/viggo-mortensen/</guid>
       <description>Viggo-Mortensen </description>
     </item>
     <item>
       <title>Wes Craven</title>
-      <link>http://localhost:1313/movie-maps-directors/wes-craven/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/wes-craven/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/wes-craven/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/wes-craven/</guid>
       <description>Wes-Craven </description>
     </item>
     <item>
       <title>Woody Allen</title>
-      <link>http://localhost:1313/movie-maps-actors/woody-allen/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/woody-allen/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/woody-allen/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/woody-allen/</guid>
       <description>Woody Allen </description>
     </item>
     <item>
       <title>Woody Allen</title>
-      <link>http://localhost:1313/movie-maps-directors/woody-allen/</link>
+      <link>https://darkvolumes.nz/movie-maps-directors/woody-allen/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-directors/woody-allen/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-directors/woody-allen/</guid>
       <description>Woody Allen </description>
     </item>
     <item>
       <title>Woody Harrelson</title>
-      <link>http://localhost:1313/movie-maps-actors/woody-harrelson/</link>
+      <link>https://darkvolumes.nz/movie-maps-actors/woody-harrelson/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps-actors/woody-harrelson/</guid>
+      <guid>https://darkvolumes.nz/movie-maps-actors/woody-harrelson/</guid>
       <description>Woody Harrelson </description>
     </item>
     <item>
       <title>Movie Maps</title>
-      <link>http://localhost:1313/movie-maps/</link>
+      <link>https://darkvolumes.nz/movie-maps/</link>
       <pubDate>Sun, 06 Sep 2020 12:08:54 +0200</pubDate>
-      <guid>http://localhost:1313/movie-maps/</guid>
+      <guid>https://darkvolumes.nz/movie-maps/</guid>
       <description>Movie Maps I love movies and I like to see the connections between directors, actors and themes so I wrote my own tool to create maps of movies. The director is connected with a blue line to the film, and actors with orange lines. Dashed lines connect films to a theme.&#xA;The maps are organized by&#xA;themes directors actors </description>
     </item>
     <item>
       <title>Photos</title>
-      <link>http://localhost:1313/photos/</link>
+      <link>https://darkvolumes.nz/photos/</link>
       <pubDate>Sun, 06 Sep 2020 10:20:18 +0200</pubDate>
-      <guid>http://localhost:1313/photos/</guid>
+      <guid>https://darkvolumes.nz/photos/</guid>
       <description>Photos Sardegna 3 Amsterdam Naples Sardegna 2 Rome Sardegna New Zealand - South Island Toscana Val di Fassa San Pietroburgo Ron Mueck&amp;rsquo;s exhibition New Zealand </description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://darkvolumes.nz/about/</link>
       <pubDate>Sun, 06 Sep 2020 10:10:15 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://darkvolumes.nz/about/</guid>
       <description>About Hi, I am Nicolò (rationalpsyche) Fornari.&#xA;I work as Penetration Tester, I&amp;rsquo;m interested in IT security and I love art: I am passionate about movies and I like taking photographs.&#xA;You can contact me on twitter</description>
     </item>
     <item>
       <title>ps aux and ss -tulpn via directory trasversal</title>
-      <link>http://localhost:1313/infosec/directory-trasversal/</link>
+      <link>https://darkvolumes.nz/infosec/directory-trasversal/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/directory-trasversal/</guid>
+      <guid>https://darkvolumes.nz/infosec/directory-trasversal/</guid>
       <description>ps aux and ss -tulpn via directory trasversal Getting a directory trasversal vulnerability may allow you read the contents of /etc/passwd but that is far from getting an initial foothold.&#xA;However we can leverage directory trasversal to perform further enumeration, namely reading the contents of /proc/sched_debug/,/proc/net/tcp and /proc/net/udp to list running processes and listening ports.&#xA;Knowing the listening ports has two advantages:&#xA;no scan is required it shows all listening ports, while a scan would not because of the firewall Get running processes Definition.</description>
     </item>
     <item>
       <title>BlackAlps 2019 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/blackalps/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/blackalps/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/blackalps/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/blackalps/</guid>
       <description>Black Alps Google Bug Hunters Speaker: Eduardo Vela Nava&#xA;On average the VRP (Vulnerability Reward Program) receives 35 reports per day.&#xA;There are 12 people on rotation, 2 per day checking the reports, a junior paired with a senior.&#xA;The technical review is separated from the financial rewards.&#xA;The overview of the process is the following:&#xA;product team &amp;lt;-----&amp;gt; triage &amp;lt;-----&amp;gt; bug hunter |&#x9;|&#x9;^ |&#x9;|&#x9;| |&#x9;V&#x9;| |__________________ VRP panel __________| People in the VRP panel see only the issues that are accepted (hence the most interesting).</description>
     </item>
     <item>
       <title>To the Rules of the World</title>
-      <link>http://localhost:1313/reading/to-the-rules-of-the-world/</link>
+      <link>https://darkvolumes.nz/reading/to-the-rules-of-the-world/</link>
       <pubDate>Sun, 01 Jan 2017 11:18:36 +0200</pubDate>
-      <guid>http://localhost:1313/reading/to-the-rules-of-the-world/</guid>
+      <guid>https://darkvolumes.nz/reading/to-the-rules-of-the-world/</guid>
       <description>To The Rulers Of The World CC: those adverse to them&#xA;I strongly despise this money-driven world. Money to have more power or power to have more money, I do not know, probably it is a vicious cycle. Interests, virtual money, this is one of the cancers of our world. I hate the fact the few pricks decide how much your life work is worth. I would like so much to leave for what a close friend of mine called “a small island of virtue” but there is no escape.</description>
     </item>
     <item>
       <title>OWASP AppSecEU 2016 (notes)</title>
-      <link>http://localhost:1313/infosec/conferences/owasp-appsec/</link>
+      <link>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</link>
       <pubDate>Wed, 24 Aug 2016 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/infosec/conferences/owasp-appsec/</guid>
+      <guid>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</guid>
       <description>OWASP AppSecEU Charlie Miller - bug hunting Choose the application to audit:&#xA;How spread is the app? How hard is to find a vulnerability? How hard is to exploit the vulnerability? Size of data: eg. sms vs pdf Interaction: eg. javascript vs jpeg Services: eg. Netbios vs HTTP Static analysis - cons:&#xA;hard to measure progress, it does not scale problem of understanding the whole program ps-&amp;gt;free = node instead of active This bug is difficult to find with static analysis or even by a human being, as a matter of fact it was found with a fuzzer Dynamic analysis - aka fuzzing:</description>
     </item>
     <item>
       <title>Extracts  - Citizen Four</title>
-      <link>http://localhost:1313/reading/extracts-citizen-four/</link>
+      <link>https://darkvolumes.nz/reading/extracts-citizen-four/</link>
       <pubDate>Thu, 01 Jan 1970 11:18:36 +0200</pubDate>
-      <guid>http://localhost:1313/reading/extracts-citizen-four/</guid>
+      <guid>https://darkvolumes.nz/reading/extracts-citizen-four/</guid>
       <description>Extracts - Citizen Four Edward Snowden I remember what the Internet was like before it was being watched. And there has never been anything in the history of man like it. I mean you could have children from one part of the world having an equal discussion, where you know they were sort of granted the same respect for their ideas and conversation, with experts in the field from another part of the world on any topic, anywhere, anytime, all the time.</description>
     </item>
     <item>
       <title>Extracts - Phrack</title>
-      <link>http://localhost:1313/reading/extracts-phrack/</link>
+      <link>https://darkvolumes.nz/reading/extracts-phrack/</link>
       <pubDate>Thu, 01 Jan 1970 11:18:36 +0200</pubDate>
-      <guid>http://localhost:1313/reading/extracts-phrack/</guid>
+      <guid>https://darkvolumes.nz/reading/extracts-phrack/</guid>
       <description>Extracts - Phrack .:: The fall of hacker groups ::. Hacking is, in its very essence, an underground movement. Those who take part in it have always been the ones who (ab)used technology in ways beyond the knowledge of the larger userbase. It is tightly linked to intense efforts in unveiling previously unknown information as well as in sharing these discoveries.&#xA;We live in days of limited creativity. Moreover, as contraditory as it may seem, it looks particularly rare for creativity to arise from groups or teams.</description>
     </item>
   </channel>

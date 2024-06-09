@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Art on darkvolumes</title>
-    <link>http://localhost:1313/art/</link>
+    <link>https://darkvolumes.nz/art/</link>
     <description>Recent content in Art on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/art/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://darkvolumes.nz/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Antiques - Unique Pieces</title>
-      <link>http://localhost:1313/art/antiques---unique-pieces/</link>
+      <link>https://darkvolumes.nz/art/antiques---unique-pieces/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/art/antiques---unique-pieces/</guid>
+      <guid>https://darkvolumes.nz/art/antiques---unique-pieces/</guid>
       <description>Antiques - Unique Pieces Brafa 2022 Skeleton of an Ice Age woolly rhinoceros&#xA;The fossil was entrusted to the Royal Belgian Institute of Natural Sciences in Brussels. Medusa pendant&#xA;This masterpiece, created by Philippe Wolfers, is internationally recognized as an icon of Art Noveau jewellery. The pendant will be preserved in the Brussel Museum of Art and History. Art Noveau-style pedestal, made from bronze and fossilised wood&#xA;Victor Horta designed this piece for the winter garden of his house.</description>
     </item>
     <item>
       <title>Design Chairs</title>
-      <link>http://localhost:1313/art/design-chairs/</link>
+      <link>https://darkvolumes.nz/art/design-chairs/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/art/design-chairs/</guid>
+      <guid>https://darkvolumes.nz/art/design-chairs/</guid>
       <description>Design Chairs A selection of design chairs, by chronological order. 1925 Gerrit Rietveld - Red and Blue Chair&#xA;1925 Marcel Breuer - Wassily Chair&#xA;1928 Le Corbusier - Chaise Longue&#xA;1948 Charles and Ray Eames - La Chaise&#xA;1956 Nelson - Marshmallow Sofa&#xA;1957 Arne Jacobsen - Drop Egg and Swan 1963-65 Eero Aarnio - Globe Chair&#xA;1972 Frank Gehry - Wiggle Side Chair&#xA;1975 Alessandro Mendini - Grano&#xA;1985 Marc Newson - Lockheed Lounge</description>
     </item>
   </channel>
