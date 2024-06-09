@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Horror on darkvolumes</title>
-    <link>https://darkvolumes.nz/movie-maps-themes/horror/</link>
+    <link>http://localhost:1313/movie-maps-themes/horror/</link>
     <description>Recent content in Horror on darkvolumes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Sep 2020 12:15:35 +0200</lastBuildDate>
-    <atom:link href="https://darkvolumes.nz/movie-maps-themes/horror/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 May 2023 11:15:35 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/movie-maps-themes/horror/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Body Horror</title>
-      <link>https://darkvolumes.nz/movie-maps-themes/horror/body-horror/</link>
+      <link>http://localhost:1313/movie-maps-themes/horror/body-horror/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>https://darkvolumes.nz/movie-maps-themes/horror/body-horror/</guid>
+      <guid>http://localhost:1313/movie-maps-themes/horror/body-horror/</guid>
       <description>Body Horror </description>
     </item>
     <item>
       <title>Italian Horror</title>
-      <link>https://darkvolumes.nz/movie-maps-themes/horror/italian-horror/</link>
+      <link>http://localhost:1313/movie-maps-themes/horror/italian-horror/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>https://darkvolumes.nz/movie-maps-themes/horror/italian-horror/</guid>
+      <guid>http://localhost:1313/movie-maps-themes/horror/italian-horror/</guid>
       <description>Italian Horror </description>
     </item>
     <item>
       <title>Real Horror</title>
-      <link>https://darkvolumes.nz/movie-maps-themes/horror/real-horror/</link>
+      <link>http://localhost:1313/movie-maps-themes/horror/real-horror/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>https://darkvolumes.nz/movie-maps-themes/horror/real-horror/</guid>
+      <guid>http://localhost:1313/movie-maps-themes/horror/real-horror/</guid>
       <description>Real Horror </description>
     </item>
     <item>
       <title>Slasher</title>
-      <link>https://darkvolumes.nz/movie-maps-themes/horror/slasher/</link>
+      <link>http://localhost:1313/movie-maps-themes/horror/slasher/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>https://darkvolumes.nz/movie-maps-themes/horror/slasher/</guid>
+      <guid>http://localhost:1313/movie-maps-themes/horror/slasher/</guid>
       <description>Slasher </description>
     </item>
     <item>
       <title>Vampires</title>
-      <link>https://darkvolumes.nz/movie-maps-themes/horror/vampires/</link>
+      <link>http://localhost:1313/movie-maps-themes/horror/vampires/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>https://darkvolumes.nz/movie-maps-themes/horror/vampires/</guid>
+      <guid>http://localhost:1313/movie-maps-themes/horror/vampires/</guid>
       <description>Vampires </description>
     </item>
     <item>
       <title>Witches</title>
-      <link>https://darkvolumes.nz/movie-maps-themes/horror/witches/</link>
+      <link>http://localhost:1313/movie-maps-themes/horror/witches/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>https://darkvolumes.nz/movie-maps-themes/horror/witches/</guid>
+      <guid>http://localhost:1313/movie-maps-themes/horror/witches/</guid>
       <description>Witches </description>
     </item>
     <item>
       <title>Zombies</title>
-      <link>https://darkvolumes.nz/movie-maps-themes/horror/zombies/</link>
+      <link>http://localhost:1313/movie-maps-themes/horror/zombies/</link>
       <pubDate>Sat, 06 May 2023 11:15:35 +0200</pubDate>
-      <guid>https://darkvolumes.nz/movie-maps-themes/horror/zombies/</guid>
+      <guid>http://localhost:1313/movie-maps-themes/horror/zombies/</guid>
       <description>Zombies </description>
     </item>
   </channel>

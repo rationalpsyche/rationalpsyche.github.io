@@ -2,344 +2,347 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://darkvolumes.nz/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-08T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/infosec/conferences/area41/</loc>
+    <lastmod>2024-06-08T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/infosec/</loc>
+    <lastmod>2024-06-08T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/infosec/ai-diary/</loc>
     <lastmod>2023-12-10T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/ai-diary/</loc>
-    <lastmod>2023-12-10T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://darkvolumes.nz/infosec/</loc>
-    <lastmod>2023-12-10T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://darkvolumes.nz/infosec/conferences/nohat/</loc>
+    <loc>http://localhost:1313/infosec/conferences/nohat/</loc>
     <lastmod>2023-10-21T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/</loc>
+    <loc>http://localhost:1313/art/</loc>
+    <lastmod>2023-06-03T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/movie-maps-themes/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/body-horror/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/body-horror/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/italian-horror/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/italian-horror/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/real-horror/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/real-horror/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/slasher/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/slasher/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/vampires/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/vampires/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/witches/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/witches/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/zombies/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/zombies/</loc>
     <lastmod>2023-05-06T11:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/reading/metal-is-not-noise/</loc>
+    <loc>http://localhost:1313/reading/metal-is-not-noise/</loc>
     <lastmod>2023-03-03T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/reading/</loc>
+    <loc>http://localhost:1313/reading/</loc>
     <lastmod>2023-03-03T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/getting-the-most-out-of-twitter/</loc>
+    <loc>http://localhost:1313/infosec/getting-the-most-out-of-twitter/</loc>
     <lastmod>2023-02-26T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/burp-advanced/</loc>
+    <loc>http://localhost:1313/infosec/burp-advanced/</loc>
     <lastmod>2023-02-22T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/sqlmap-tips/</loc>
+    <loc>http://localhost:1313/infosec/sqlmap-tips/</loc>
     <lastmod>2023-02-21T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/art/antiques-unique-pieces/</loc>
+    <loc>http://localhost:1313/art/antiques---unique-pieces/</loc>
     <lastmod>2022-07-01T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/art/</loc>
-    <lastmod>2022-07-01T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://darkvolumes.nz/art/design-chairs/</loc>
+    <loc>http://localhost:1313/art/design-chairs/</loc>
     <lastmod>2022-05-01T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/reading/infographics/</loc>
+    <loc>http://localhost:1313/reading/infographics/</loc>
     <lastmod>2022-04-01T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/conferences/insomnihack/</loc>
+    <loc>http://localhost:1313/infosec/conferences/insomnihack/</loc>
     <lastmod>2022-03-24T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/artificial-intelligence/</loc>
     <lastmod>2022-02-02T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/british/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/british/</loc>
     <lastmod>2022-02-02T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/reading/aphorisms/</loc>
+    <loc>http://localhost:1313/reading/aphorisms/</loc>
     <lastmod>2021-01-01T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/almodovar/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/almodovar/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/anthony-hopkins/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/anthony-hopkins/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/barry-keoghan/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/barry-keoghan/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/ben-kingsley/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/ben-kingsley/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/bertolucci/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/bertolucci/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/black-and-white/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/black-and-white/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/black-comedy/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/black-comedy/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/brad-pitt/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/brad-pitt/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/brendan-gleeson/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/brendan-gleeson/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/charlotte-rampling/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/charlotte-rampling/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/clint-eastwood/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/clint-eastwood/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/clint-eastwood/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/clint-eastwood/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/colin-farrell/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/colin-farrell/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/color/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/color/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/cronenberg/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/cronenberg/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/danish/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/danish/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/disturbing-drama/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/disturbing-drama/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/documentary/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/documentary/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/drug/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/drug/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/dystopia/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/dystopia/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/elderly/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/elderly/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/ermanno-olmi/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/ermanno-olmi/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/eros/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/eros/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/eva-green/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/eva-green/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/food/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/food/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/francis-veber/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/francis-veber/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/french-directors/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/french-directors/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/hacking/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/hacking/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/homophobia/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/homophobia/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/horror/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/horror/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/human-dignity/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/human-dignity/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/ingmar-bergman/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/ingmar-bergman/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/italian-directors/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/italian-directors/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/jack-nicholson/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/jack-nicholson/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/jean-reno/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/jean-reno/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/jean-pierre-jeunet/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/jean-pierre-jeunet/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/jodie-foster/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/jodie-foster/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/jodorowsky/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/jodorowsky/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/johnny-depp/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/johnny-depp/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/julianne-moore/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/julianne-moore/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/kate-winslet/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/kate-winslet/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/keanu-reeves/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/keanu-reeves/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/keira-knightley/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/keira-knightley/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/kubrick/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/kubrick/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/lars-von-trier/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/lars-von-trier/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/mads-mikkelsen/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/mads-mikkelsen/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/math/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/math/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/matteo-garrone/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/matteo-garrone/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/michelle-pfeiffer/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/michelle-pfeiffer/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/middle-age/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/middle-age/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/morgan-freeman/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/morgan-freeman/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/music/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/music/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/neo-noir/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/neo-noir/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/nicole-kidman/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/nicole-kidman/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/penelope-cruz/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/penelope-cruz/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/period-drama/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/period-drama/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/peter-greenaway/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/peter-greenaway/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/polanski/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/polanski/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/rachel-weisz/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/rachel-weisz/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/ralph-fiennes/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/ralph-fiennes/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/return-to-nature/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/ridley-scott/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/ridley-scott/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/robert-rodriguez/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/robert-rodriguez/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/school/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/school/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/sean-penn/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/sean-penn/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-themes/social-criticism/</loc>
+    <loc>http://localhost:1313/movie-maps-themes/social-criticism/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/sorrentino/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/sorrentino/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/susan-sarandon/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/susan-sarandon/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/tilda-swinton/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/tilda-swinton/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/tim-burton/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/tim-burton/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/toni-servillo/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/toni-servillo/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/viggo-mortensen/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/viggo-mortensen/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/wes-craven/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/wes-craven/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/woody-allen/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/woody-allen/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-directors/woody-allen/</loc>
+    <loc>http://localhost:1313/movie-maps-directors/woody-allen/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps-actors/woody-harrelson/</loc>
+    <loc>http://localhost:1313/movie-maps-actors/woody-harrelson/</loc>
     <lastmod>2020-09-06T12:15:35+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/movie-maps/</loc>
+    <loc>http://localhost:1313/movie-maps/</loc>
     <lastmod>2020-09-06T12:08:54+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/photos/</loc>
+    <loc>http://localhost:1313/photos/</loc>
     <lastmod>2020-09-06T10:20:18+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2020-09-06T10:10:15+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/directory-trasversal/</loc>
+    <loc>http://localhost:1313/infosec/directory-trasversal/</loc>
     <lastmod>2020-03-16T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/conferences/blackalps/</loc>
+    <loc>http://localhost:1313/infosec/conferences/blackalps/</loc>
     <lastmod>2019-09-15T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/reading/to-the-rules-of-the-world/</loc>
+    <loc>http://localhost:1313/reading/to-the-rules-of-the-world/</loc>
     <lastmod>2017-01-01T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/infosec/conferences/owasp-appsec/</loc>
+    <loc>http://localhost:1313/infosec/conferences/owasp-appsec/</loc>
     <lastmod>2016-08-24T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/reading/extracts-citizen-four/</loc>
+    <loc>http://localhost:1313/reading/extracts-citizen-four/</loc>
     <lastmod>1970-01-01T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/reading/extracts-phrack/</loc>
+    <loc>http://localhost:1313/reading/extracts-phrack/</loc>
     <lastmod>1970-01-01T11:18:36+02:00</lastmod>
   </url><url>
-    <loc>https://darkvolumes.nz/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://darkvolumes.nz/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
