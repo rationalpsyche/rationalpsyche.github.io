@@ -63,136 +63,107 @@
 <div id="content">
 <div class="container">
     <h1 id="burp---advanced">Burp - Advanced</h1>
-<div>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#hot-keys">Hot Keys</a></li>
-    <li><a href="#clean-project---dashboard-and-target">Clean Project - Dashboard and Target</a></li>
-    <li><a href="#proxy">Proxy</a>
-      <ul>
-        <li><a href="#match-and-replace">Match And Replace</a></li>
-      </ul>
-    </li>
-    <li><a href="#repeater">Repeater</a></li>
-    <li><a href="#scanner">Scanner</a></li>
-    <li><a href="#extensions">Extensions</a>
-      <ul>
-        <li><a href="#hackvertor">Hackvertor</a></li>
-        <li><a href="#recommended-extensions">Recommended Extensions</a></li>
-        <li><a href="#up-to-date-bapp-extensions">Up-to-date Bapp Extensions</a></li>
-      </ul>
-    </li>
-    <li><a href="#misc">Misc</a>
-      <ul>
-        <li><a href="#socks-proxy">SOCKS proxy</a></li>
-        <li><a href="#ntlm-authentication">NTLM Authentication</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-</div>
-
 <p>Given you alredy know the basics of Burp (proxy, repeater and intruder) this article covers advanced features to be more efficient in testing.</p>
 <h2 id="hot-keys">Hot Keys</h2>
 <p>Shortcuts are extremely useful and can be configured from the User settings. These are the ones I use the most.</p>
 <table>
-<thead>
-<tr>
-<th>Action</th>
-<th>Hotkey</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>From proxy history send request to repeater</td>
-<td>CTRL R</td>
-</tr>
-<tr>
-<td>From proxy history send request to intruder</td>
-<td>CTRL I</td>
-</tr>
-<tr>
-<td>Add Intruder payload position marker</td>
-<td>CTRL Shift M</td>
-</tr>
-<tr>
-<td>Clear Intruder payload position markers</td>
-<td>CTRL L</td>
-</tr>
-<tr>
-<td>Insert Collaborator URL</td>
-<td>CTRL O</td>
-</tr>
-<tr>
-<td>Issue Repeater Request</td>
-<td>CTRL space</td>
-</tr>
-<tr>
-<td>Issue Intruder Attack</td>
-<td>CTRL Enter</td>
-</tr>
-<tr>
-<td>Go back in repeater history</td>
-<td>CTRL &lt;</td>
-</tr>
-<tr>
-<td>Go forward in repeater history</td>
-<td>CTRL &gt;</td>
-</tr>
-<tr>
-<td>Go to previous tab</td>
-<td>CTRL Shift -</td>
-</tr>
-<tr>
-<td>Go to next tab</td>
-<td>CTRL Shift +</td>
-</tr>
-<tr>
-<td>Switch to target</td>
-<td>CTRL Shift T</td>
-</tr>
-<tr>
-<td>Switch to dashboard</td>
-<td>CTRL Shift D</td>
-</tr>
-<tr>
-<td>Switch to proxy</td>
-<td>CTRL Shift P</td>
-</tr>
-<tr>
-<td>Forward Intercepted Proxy Message</td>
-<td>CTRL F</td>
-</tr>
-<tr>
-<td>Forward Intercepted Proxy Request and Intercept the Response</td>
-<td>CTRL Shift F</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Action</th>
+          <th>Hotkey</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>From proxy history send request to repeater</td>
+          <td>CTRL R</td>
+      </tr>
+      <tr>
+          <td>From proxy history send request to intruder</td>
+          <td>CTRL I</td>
+      </tr>
+      <tr>
+          <td>Add Intruder payload position marker</td>
+          <td>CTRL Shift M</td>
+      </tr>
+      <tr>
+          <td>Clear Intruder payload position markers</td>
+          <td>CTRL L</td>
+      </tr>
+      <tr>
+          <td>Insert Collaborator URL</td>
+          <td>CTRL O</td>
+      </tr>
+      <tr>
+          <td>Issue Repeater Request</td>
+          <td>CTRL space</td>
+      </tr>
+      <tr>
+          <td>Issue Intruder Attack</td>
+          <td>CTRL Enter</td>
+      </tr>
+      <tr>
+          <td>Go back in repeater history</td>
+          <td>CTRL &lt;</td>
+      </tr>
+      <tr>
+          <td>Go forward in repeater history</td>
+          <td>CTRL &gt;</td>
+      </tr>
+      <tr>
+          <td>Go to previous tab</td>
+          <td>CTRL Shift -</td>
+      </tr>
+      <tr>
+          <td>Go to next tab</td>
+          <td>CTRL Shift +</td>
+      </tr>
+      <tr>
+          <td>Switch to target</td>
+          <td>CTRL Shift T</td>
+      </tr>
+      <tr>
+          <td>Switch to dashboard</td>
+          <td>CTRL Shift D</td>
+      </tr>
+      <tr>
+          <td>Switch to proxy</td>
+          <td>CTRL Shift P</td>
+      </tr>
+      <tr>
+          <td>Forward Intercepted Proxy Message</td>
+          <td>CTRL F</td>
+      </tr>
+      <tr>
+          <td>Forward Intercepted Proxy Request and Intercept the Response</td>
+          <td>CTRL Shift F</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="clean-project---dashboard-and-target">Clean Project - Dashboard and Target</h2>
 <p>When creating a project two tasks are active by default: live passive crawl from proxy and live audit from proxy.</p>
-<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_messy_dashboard.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_messy_dashboard.png" width="800">
 </figure>
 
 <p>Live audit will perform passive checks on the proxy traffic and populate the issue activity. Personally I consider these findings to pollute the list of issues rather than providing real value. I prefer to disable this task. In this manner only findings from active scans will be displayed.</p>
-<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_dashboard.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_dashboard.png" width="800">
 </figure>
 
 <p>Similar reasoning goes for live passive crawl which populates the Target tree. Let&rsquo;s say that you open google.com in the Burp browser by mistake, the Target will be polluted by multiple domains which are completely out of scope.</p>
-<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_messy_target.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_messy_target.png" width="800">
 </figure>
 
 <p>Instead I recommend to keep the Passive Crawl task but to set it to Scope traffic only.</p>
-<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_target1.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_target1.png" width="800">
 </figure>
 
 <p>Now the Target contains only in-scope domains.
-<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_target2.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/dashboard_target/burp_clean_target2.png" width="800">
 </figure>
 </p>
 <h2 id="proxy">Proxy</h2>
 <p>Requests in proxy history can be highlighted or annotated with a comment.</p>
-<figure class="burp"><img src="/infosec/burp/burp-highlight-comment.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/burp-highlight-comment.png" width="800">
 </figure>
 
 <p>A use case is to mark something as interesting to go back to it later.</p>
@@ -200,31 +171,31 @@
 <h3 id="match-and-replace">Match And Replace</h3>
 <p>Match and Replace is extremly useful. Here are some usecases.</p>
 <p>Replace the username or email with something easy to type. This is especially useful if you have distinct roles and you can just type something like myclient, mypartner, myadmin instead of looking up and copy pasting each email address.</p>
-<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_users.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_users.png" width="800">
 </figure>
 
 <p>Note that I use the prefix &ldquo;my&rdquo; as in &ldquo;mypartner&rdquo; instead of the plain &ldquo;partner&rdquo; to avoid having unrelated parameters being unintentionally replaced.</p>
 <p>The same reasoning applies to passwords, why copy pasting them from a document or password manager when it is possible to quickly type something easy to remember?</p>
-<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_password.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_password.png" width="800">
 </figure>
 
 <p>It is also possible to use Match and Replace for a custom payload, e.g.</p>
-<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_payload.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_payload.png" width="800">
 </figure>
 
 <p>However I have not yet found a satisfying solution to this approach as the same Web Application might send user input URL encoded for some requests and not URL encoded in JSON requests, thus I do not see a way to have a single mnemonic keyword to inject payloads for both URL encoded and JSON requests.</p>
 <p>It is also possible to replace headers, I personally like to remove unneeded client headers to have a cleaner request which also takes less space in reports.
 In the example below I use two match and replace rules with regexes <code>^Sec-Ch-Ua.*$</code> and <code>^Sec-Fetch.*$</code>.</p>
-<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_cleaner_requests.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/match_and_replace/burp_match_and_replace_cleaner_requests.png" width="800">
 </figure>
 
 <h2 id="repeater">Repeater</h2>
 <p>Repeater tabs can be renamed and grouped into named and colored grups.</p>
-<figure class="burp"><img src="/infosec/burp/repeater/burp_repeater_tabs.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/repeater/burp_repeater_tabs.png" width="800">
 </figure>
 
 <p>Moreover when a request is sent to Repeater it is possible to choose a default Tab group to keep Repeater even tidier.</p>
-<figure class="burp"><img src="/infosec/burp/repeater/burp_repeater_tabs_default_grouping.png" width="800"/>
+<figure class="burp"><img src="/infosec/burp/repeater/burp_repeater_tabs_default_grouping.png" width="800">
 </figure>
 
 <h2 id="scanner">Scanner</h2>
@@ -249,7 +220,7 @@ Host: darkvolumes.nz
 </code></pre><p>The example does not make too much sense but you get the idea.</p>
 <p>Hackvertor can also run python.</p>
 <p><strong>Remark.</strong> You need to enable code execution.</p>
-<figure class="burp"><img src="/infosec/burp/hackvertor-enable-code-execution.png"/>
+<figure class="burp"><img src="/infosec/burp/hackvertor-enable-code-execution.png">
 </figure>
 
 <p>An example where it was useful was a web application where javascript computed an hmac for each URL which was then validated server-side. This would have made testing very annoying since for each URL I would have had to manually compute the HMAC (the secret key is known client side).</p>
@@ -262,66 +233,66 @@ output = hmac.new(binascii.unhexlify(&#34;secret-key&#34;), input, hashlib.sha25
 </code></pre><h3 id="recommended-extensions">Recommended Extensions</h3>
 <p>Some extensions which I find usueful.</p>
 <table>
-<thead>
-<tr>
-<th>Extension</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/portswigger/auth-analyzer">Auth Analyzer</a></td>
-<td>Test access control, replaying requests with the cookie of another user and comparing the response</td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/065d156ecefd480fa3efa36e05d55f77">Stepper</a></td>
-<td>Check the <a href="https://coreyarthur.com/stepper/">official stepper doc</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/portswigger/additional-cors-checks">CORS*</a></td>
-<td>Test CORS</td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/e4e0f6c4f0274754917dcb5f4937bb9e">Piper</a></td>
-<td>Diff requests/responses and View PDFs</td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/b2244cbb6953442cb3c82fa0a0d908fa">Upload Scanner</a></td>
-<td>Check the documentation at <a href="upload-scanner">https://github.com/PortSwigger/upload-scanner</a></td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/e3dde890bdce4ae4bcef0d97019f5d46">Pentagrid Scan Controller</a></td>
-<td>Check how it works in the <a href="https://youtu.be/aFMTzFfX1Z4">Presentation at Area41</a></td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/42680f96fc214513bc5211b3f25fd98b">HTTP Mock</a></td>
-<td>Replace NSFW content or get rid of AI help chats</td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943">Param Miner</a></td>
-<td>Find hidden parameters</td>
-</tr>
-<tr>
-<td><a href="https://github.com/portswigger/json-web-tokens">JSON Web Tokens</a></td>
-<td>Decode and manipulate JWT on the fly</td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f">InQL</a></td>
-<td>Parse GraphQL schema</td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f">Wsdler</a></td>
-<td>Parse WSDL schema</td>
-</tr>
-<tr>
-<td><a href="https://portswigger.net/bappstore/c61cfa893bb14db4b01775554f7b802e">SAML Raider</a></td>
-<td>Inspect SAML messages and perform multiple attacks</td>
-</tr>
-<tr>
-<td><a href="https://github.com/portswigger/turbo-intruder">Turbo Intruder</a></td>
-<td>See <a href="https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack">Portswigger blog post</a>. Example of usage: race conditions for file upload</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Extension</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://github.com/portswigger/auth-analyzer">Auth Analyzer</a></td>
+          <td>Test access control, replaying requests with the cookie of another user and comparing the response</td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/065d156ecefd480fa3efa36e05d55f77">Stepper</a></td>
+          <td>Check the <a href="https://coreyarthur.com/stepper/">official stepper doc</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/portswigger/additional-cors-checks">CORS*</a></td>
+          <td>Test CORS</td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/e4e0f6c4f0274754917dcb5f4937bb9e">Piper</a></td>
+          <td>Diff requests/responses and View PDFs</td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/b2244cbb6953442cb3c82fa0a0d908fa">Upload Scanner</a></td>
+          <td>Check the documentation at <a href="upload-scanner">https://github.com/PortSwigger/upload-scanner</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/e3dde890bdce4ae4bcef0d97019f5d46">Pentagrid Scan Controller</a></td>
+          <td>Check how it works in the <a href="https://youtu.be/aFMTzFfX1Z4">Presentation at Area41</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/42680f96fc214513bc5211b3f25fd98b">HTTP Mock</a></td>
+          <td>Replace NSFW content or get rid of AI help chats</td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943">Param Miner</a></td>
+          <td>Find hidden parameters</td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/portswigger/json-web-tokens">JSON Web Tokens</a></td>
+          <td>Decode and manipulate JWT on the fly</td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f">InQL</a></td>
+          <td>Parse GraphQL schema</td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f">Wsdler</a></td>
+          <td>Parse WSDL schema</td>
+      </tr>
+      <tr>
+          <td><a href="https://portswigger.net/bappstore/c61cfa893bb14db4b01775554f7b802e">SAML Raider</a></td>
+          <td>Inspect SAML messages and perform multiple attacks</td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/portswigger/turbo-intruder">Turbo Intruder</a></td>
+          <td>See <a href="https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack">Portswigger blog post</a>. Example of usage: race conditions for file upload</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="up-to-date-bapp-extensions">Up-to-date Bapp Extensions</h3>
 <p>When testing on a laptop behind a corporate proxy it is convenient to have an updated archive with the needed extensions.</p>
