@@ -142,11 +142,11 @@
       <description>&lt;h1 id=&#34;-insomnihack&#34;&gt;# Insomnihack&lt;/h1&gt;&#xA;&lt;h2 id=&#34;its-raining-shells---how-to-find-new-attack-primitives-in-azure&#34;&gt;It’s Raining Shells - How to Find New Attack Primitives in Azure?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker.&lt;/strong&gt; Andy Robbins &lt;code&gt;@_wald0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;abuses-vs-bugs&#34;&gt;Abuses vs Bugs&lt;/h3&gt;&#xA;&lt;p&gt;Advantages of abuses:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cheaper to maintain&lt;/li&gt;&#xA;&lt;li&gt;longer shelf life&lt;/li&gt;&#xA;&lt;li&gt;they exist in each instance&lt;/li&gt;&#xA;&lt;li&gt;they are a challenge for detection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;research-methodology&#34;&gt;Research methodology&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;begin with the end in mind&lt;/li&gt;&#xA;&lt;li&gt;study design system (&amp;ldquo;academic knowledge&amp;rdquo;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;official documentation&lt;/li&gt;&#xA;&lt;li&gt;repos and repos issues&lt;/li&gt;&#xA;&lt;li&gt;talks (12-24 hours)&lt;/li&gt;&#xA;&lt;li&gt;chats, forums&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;explore the system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;OSINT example to find people to learn from:&#xA;&lt;code&gt;site:linkedin.com &amp;quot;microsoft&amp;quot; &amp;quot;graph&amp;quot; &amp;quot;architect&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Artificial-Intelligence</title>
+      <title>Artificial Intelligence</title>
       <link>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</link>
       <pubDate>Wed, 02 Feb 2022 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</guid>
-      <description>&lt;h2 id=&#34;artificial-intelligence&#34;&gt;Artificial-Intelligence&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Artificial-Intelligence.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;artificial-intelligence&#34;&gt;Artificial Intelligence&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Artificial-Intelligence.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>British</title>
@@ -198,18 +198,18 @@
       <description>&lt;h2 id=&#34;bertolucci&#34;&gt;Bertolucci&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/directors/Bertolucci.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Black-And-White</title>
+      <title>Black And White</title>
       <link>https://darkvolumes.nz/movie-maps-themes/black-and-white/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/black-and-white/</guid>
-      <description>&lt;h2 id=&#34;black-and-white&#34;&gt;Black-And-White&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Black-And-White.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;black-and-white&#34;&gt;Black And White&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Black-And-White.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Black-Comedy</title>
+      <title>Black Comedy</title>
       <link>https://darkvolumes.nz/movie-maps-themes/black-comedy/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/black-comedy/</guid>
-      <description>&lt;h2 id=&#34;black-comedy&#34;&gt;Black-Comedy&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Black-Comedy.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;black-comedy&#34;&gt;Black Comedy&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Black-Comedy.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Brad Pitt</title>
@@ -275,11 +275,11 @@
       <description>&lt;h2 id=&#34;danish&#34;&gt;Danish&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Danish.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Disturbing-Drama</title>
+      <title>Disturbing Drama</title>
       <link>https://darkvolumes.nz/movie-maps-themes/disturbing-drama/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/disturbing-drama/</guid>
-      <description>&lt;h2 id=&#34;disturbing-drama&#34;&gt;Disturbing-Drama&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Disturbing-Drama.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;disturbing-drama&#34;&gt;Disturbing Drama&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Disturbing-Drama.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Documentary</title>
@@ -345,11 +345,11 @@
       <description>&lt;h2 id=&#34;francis-veber&#34;&gt;Francis Veber&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/directors/Francis-Veber.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>French-Directors</title>
+      <title>French Directors</title>
       <link>https://darkvolumes.nz/movie-maps-themes/french-directors/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/french-directors/</guid>
-      <description>&lt;h2 id=&#34;french-directors&#34;&gt;French-Directors&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/French-Directors.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;french-directors&#34;&gt;French Directors&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/French-Directors.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Hacking</title>
@@ -366,11 +366,11 @@
       <description>&lt;h2 id=&#34;homophobia&#34;&gt;Homophobia&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Homophobia.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Human-Dignity</title>
+      <title>Human Dignity</title>
       <link>https://darkvolumes.nz/movie-maps-themes/human-dignity/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/human-dignity/</guid>
-      <description>&lt;h2 id=&#34;human-dignity&#34;&gt;Human-Dignity&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Human-Dignity.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;human-dignity&#34;&gt;Human Dignity&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Human-Dignity.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Ingmar Bergman</title>
@@ -380,11 +380,11 @@
       <description>&lt;h2 id=&#34;ingmar-bergman&#34;&gt;Ingmar Bergman&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/directors/Ingmar-Bergman.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Italian-Directors</title>
+      <title>Italian Directors</title>
       <link>https://darkvolumes.nz/movie-maps-themes/italian-directors/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/italian-directors/</guid>
-      <description>&lt;h2 id=&#34;italian-directors&#34;&gt;Italian-Directors&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Italian-Directors.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;italian-directors&#34;&gt;Italian Directors&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Italian-Directors.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Jack Nicholson</title>
@@ -499,11 +499,11 @@
       <description>&lt;h2 id=&#34;michelle-pfeiffer&#34;&gt;Michelle Pfeiffer&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/actors/Michelle-Pfeiffer.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Middle-Age</title>
+      <title>Middle Age</title>
       <link>https://darkvolumes.nz/movie-maps-themes/middle-age/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/middle-age/</guid>
-      <description>&lt;h2 id=&#34;middle-age&#34;&gt;Middle-Age&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Middle-Age.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;middle-age&#34;&gt;Middle Age&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Middle-Age.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Morgan Freeman</title>
@@ -524,7 +524,7 @@
       <link>https://darkvolumes.nz/movie-maps-themes/neo-noir/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/neo-noir/</guid>
-      <description>&lt;h2 id=&#34;neo-noir&#34;&gt;Neo-Noir&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Neo-Noir.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;neo-noir&#34;&gt;Neo Noir&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Neo-Noir.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Nicole Kidman</title>
@@ -541,11 +541,11 @@
       <description>&lt;h2 id=&#34;penelope-cruz&#34;&gt;Penelope Cruz&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/actors/Penelope-Cruz.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Period-Drama</title>
+      <title>Period Drama</title>
       <link>https://darkvolumes.nz/movie-maps-themes/period-drama/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/period-drama/</guid>
-      <description>&lt;h2 id=&#34;period-drama&#34;&gt;Period-Drama&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Period-Drama.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;period-drama&#34;&gt;Period Drama&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Period-Drama.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Peter Greenaway</title>
@@ -576,11 +576,18 @@
       <description>&lt;h2 id=&#34;ralph-fiennes&#34;&gt;Ralph Fiennes&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/actors/Ralph-Fiennes.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Return-To-Nature</title>
+      <title>Religion</title>
+      <link>https://darkvolumes.nz/movie-maps-themes/religion/</link>
+      <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
+      <guid>https://darkvolumes.nz/movie-maps-themes/religion/</guid>
+      <description>&lt;h2 id=&#34;religion&#34;&gt;Religion&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Religion.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Return To Nature</title>
       <link>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/return-to-nature/</guid>
-      <description>&lt;h2 id=&#34;return-to-nature&#34;&gt;Return-To-Nature&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Return-To-Nature.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;return-to-nature&#34;&gt;Return To Nature&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Return-To-Nature.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Ridley Scott</title>
@@ -588,6 +595,13 @@
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-directors/ridley-scott/</guid>
       <description>&lt;h2 id=&#34;ridley-scott&#34;&gt;Ridley Scott&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/directors/Ridley-Scott.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Robert Eggers</title>
+      <link>https://darkvolumes.nz/movie-maps-directors/robert-eggers/</link>
+      <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
+      <guid>https://darkvolumes.nz/movie-maps-directors/robert-eggers/</guid>
+      <description>&lt;h2 id=&#34;robert-eggers&#34;&gt;Robert Eggers&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/directors/Robert-Eggers.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Robert Rodriguez</title>
@@ -611,11 +625,11 @@
       <description>&lt;h2 id=&#34;sean-penn&#34;&gt;Sean Penn&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/actors/Sean-Penn.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Social-Criticism</title>
+      <title>Social Criticism</title>
       <link>https://darkvolumes.nz/movie-maps-themes/social-criticism/</link>
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-themes/social-criticism/</guid>
-      <description>&lt;h2 id=&#34;social-criticism&#34;&gt;Social-Criticism&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Social-Criticism.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;social-criticism&#34;&gt;Social Criticism&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Social-Criticism.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Sorrentino</title>
@@ -630,6 +644,13 @@
       <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
       <guid>https://darkvolumes.nz/movie-maps-actors/susan-sarandon/</guid>
       <description>&lt;h2 id=&#34;susan-sarandon&#34;&gt;Susan Sarandon&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/actors/Susan-Sarandon.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Sword And Sorcery</title>
+      <link>https://darkvolumes.nz/movie-maps-themes/sword-and-sorcery/</link>
+      <pubDate>Sun, 06 Sep 2020 12:15:35 +0200</pubDate>
+      <guid>https://darkvolumes.nz/movie-maps-themes/sword-and-sorcery/</guid>
+      <description>&lt;h2 id=&#34;sword-and-sorcery&#34;&gt;Sword And Sorcery&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Sword-And-Sorcery.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Tilda Swinton</title>
