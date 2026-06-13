@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 02 Feb 2022 12:15:35 +0200</lastBuildDate>
     <atom:link href="https://darkvolumes.nz/movie-maps-themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Art</title>
+      <link>https://darkvolumes.nz/movie-maps-themes/art/</link>
+      <pubDate>Wed, 02 Feb 2022 12:15:35 +0200</pubDate>
+      <guid>https://darkvolumes.nz/movie-maps-themes/art/</guid>
+      <description>&lt;h2 id=&#34;art&#34;&gt;Art&lt;/h2&gt;&#xA;&lt;figure class=&#34;moviemap&#34;&gt;&lt;img src=&#34;https://darkvolumes.nz/movies/themes/Art.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
       <title>Artificial Intelligence</title>
       <link>https://darkvolumes.nz/movie-maps-themes/artificial-intelligence/</link>
       <pubDate>Wed, 02 Feb 2022 12:15:35 +0200</pubDate>
